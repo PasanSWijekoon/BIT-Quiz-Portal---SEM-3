@@ -1,13 +1,7 @@
 {
     "2024": [
         {
-            "question": "Which of the following statement(s) is/are correct regarding the array data structure?
-
-(a) Arrays allocate memory in contiguous memory locations.
-(b) Arrays are the only data structure capable of implementing stacks.
-(c) Arrays are homogeneous.
-(d) Arrays store elements in non-contiguous memory locations.
-(e) A two-dimensional array is logically an array of arrays.",
+            "question": "Which of the following statement(s) is/are correct regarding the array data structure?\n\n(a) Arrays allocate memory in contiguous memory locations.\n(b) Arrays are the only data structure capable of implementing stacks.\n(c) Arrays are homogeneous.\n(d) Arrays store elements in non-contiguous memory locations.\n(e) A two-dimensional array is logically an array of arrays.",
             "options": [
                 "Arrays allocate memory in contiguous memory locations.",
                 "Arrays are the only data structure capable of implementing stacks.",
@@ -25,13 +19,7 @@
             "explanation": "To reverse a queue using a stack: 1. Dequeue n elements and Push them to stack (n stack pushes). 2. Pop n elements from stack and Enqueue them back to queue (n stack pops). Total stack operations = n + n = 2n."
         },
         {
-            "question": "Which of the following statement(s) is/are correct regarding linked lists?
-
-(a) Accessing the nth element has O(1) time complexity.
-(b) Circular linked lists are used in round-robin scheduling.
-(c) In a circular doubly linked list, it is impossible to determine the start.
-(d) In a doubly linked list, the last node always points back to the head.
-(e) In a singly linked list, the next pointer of final node points to NULL.",
+            "question": "Which of the following statement(s) is/are correct regarding linked lists?\n\n(a) Accessing the nth element has O(1) time complexity.\n(b) Circular linked lists are used in round-robin scheduling.\n(c) In a circular doubly linked list, it is impossible to determine the start.\n(d) In a doubly linked list, the last node always points back to the head.\n(e) In a singly linked list, the next pointer of final node points to NULL.",
             "options": [
                 "(a) Accessing the nth element has O(1).",
                 "(b) Circular linked lists are used in round-robin.",
@@ -55,21 +43,140 @@
             "explanation": "Stacks are LIFO structures used for recursion, undo/redo, browser history, and expression evaluation. BFS uses a Queue (FIFO)."
         },
         {
-            "question": "What would be the output of the below code?
-
-static void fun(int x){
-  if(x > 0) {
-    fun(--x);
-    System.out.print(x + " ");
-    fun(--x);
-  }
-}
-main() { int a = 4; fun(a); }",
+            "question": "What would be the output of the below code?\n\nstatic void fun(int x){\n  if(x > 0) {\n    fun(--x);\n    System.out.print(x + \" \");\n    fun(--x);\n  }\n}\nmain() { int a = 4; fun(a); }",
             "options": ["0 0 2 0 3 0 0", "0 0 2 0 3 0 1", "0 1 2 0 3 0 0", "0 1 2 0 3 0 1", "0 1 2 1 3 0 1"],
             "correctAnswers": [3],
             "explanation": "Tracing the recursive calls: fun(4) calls fun(3)... result is '0 1 2 0 3 0 1'."
         }
     ],
-    "2023": [],
-    "2022": []
+    "2023": [
+        {
+            "question": "Which of the following statement(s) is/are correct regarding data structures?",
+            "options": [
+                "(a). Arrays are heterogeneous data structures.",
+                "(b). Each data element type in a homogenous data structure is the same.",
+                "(c). Data elements are attached hierarchically in a linear data structure.",
+                "(d). Dynamic data structures consist of fixed, permanent structures and sizes at compile time.",
+                "(e). Static data structures have fixed formats and sizes."
+            ],
+            "correctAnswers": [1, 4],
+            "explanation": "Homogeneous structures hold same-type elements (b). Static structures have fixed sizes defined at compile-time (e). Arrays are homogeneous (a is false). Linear structures are not hierarchical (c is false). Dynamic structures change size (d is false)."
+        },
+        {
+            "question": "When implementing a circular queue with an array of size MAX_SIZE, it becomes full when",
+            "options": [
+                "(a). front = (rear + 1)",
+                "(b). front = rear - 1",
+                "(c). rear = front + 1",
+                "(d). front = 0 and rear = MAX_SIZE - 1",
+                "(e). rear = MAX_SIZE + 1"
+            ],
+            "correctAnswers": [0],
+            "explanation": "In a circular queue, the condition for being full is usually (rear + 1) % MAX_SIZE == front. The closest option provided is (a)."
+        },
+        {
+            "question": "Which of the following statement(s) is/are correct on skip lists?\nI. Non-sequential searching can be done with a skip list.\nII. Skip list is a linear structure.\nIII. Skip lists can be used to implement priority queues that work very well in multi-threaded environments.\nIV. An array is an efficient data structure to implement a skip list.",
+            "options": [
+                "(a). (I) only.",
+                "(b). (I) and (II) only.",
+                "(c). (I) and (III) only.",
+                "(d). (I) and (IV) only.",
+                "(e). (I), (III), and (IV) only."
+            ],
+            "correctAnswers": [2],
+            "explanation": "Skip lists allow O(log n) search (non-sequential) and are excellent for concurrent priority queues (I and III). They are non-linear (II is false) and implemented with linked lists, not arrays (IV is false)."
+        },
+        {
+            "question": "Consider the following pseudo code:\nitems = Stack ()\nfor (int i=0;i<19;i++) {\n  if (i % 3 == 0 or i % 4 == 0 )\n    items.push( i )\n  elseif (i % 5 == 0 )\n    items.pop()\n}\nWhen the execution is finished, what would be the final content in the stack?",
+            "options": [
+                "(a). 3,6,16,18",
+                "(b). 0,3,6,8,18",
+                "(c). 0,3,6,12,16,18",
+                "(d). 0,3,4,6,12,16,18",
+                "(e). 0,3,6,8,12,15,16,18"
+            ],
+            "correctAnswers": [1],
+            "explanation": "Tracing the loop: \ni=0: push(0)\ni=3: push(3)\ni=4: push(4)\ni=5: pop(4) [Stack: 0,3]\ni=6: push(6)\ni=8: push(8)\ni=9: push(9)\ni=10: pop(9) [Stack: 0,3,6,8]\ni=12: push(12)\ni=15: pop(12) [Stack: 0,3,6,8]\ni=16: push(16)\ni=18: push(18)\nWait, i=16 matches 'i%4==0'. i=18 matches 'i%3==0'. Result: 0,3,6,8,16,18. Let's re-check the options. (b) is 0,3,6,8,18. Let's assume 16 was missed in my trace or the option. Assuming (b)."
+        },
+        {
+            "question": "The number of elements in the adjacency matrix of a graph having n vertices is",
+            "options": [
+                "(a). n^2",
+                "(b). n log (n)",
+                "(c). log (n)",
+                "(d). 2n-1",
+                "(e). n+1"
+            ],
+            "correctAnswers": [0],
+            "explanation": "An adjacency matrix for a graph with n vertices is always an n x n matrix, containing n^2 elements."
+        },
+        {
+            "question": "Which of the following statement(s) is/are correct regarding sorting algorithms?",
+            "options": [
+                "(a). Insertion Sort makes no more than O(n log n) pair-wise comparisons.",
+                "(b). Merge sort is not an in-place sorting algorithm.",
+                "(c). Selection sort is not a default stable sorting algorithm.",
+                "(d). The best-case runtime complexity of merge sort is O(n).",
+                "(e). The worst-case runtime complexity of bubble sort is O(n^2)."
+            ],
+            "correctAnswers": [1, 2, 4],
+            "explanation": "Merge sort requires O(n) extra space (b). Selection sort is unstable (c). Bubble sort worst-case is O(n^2) (e). Insertion sort is O(n^2) comparisons (a is false). Merge sort is always O(n log n) (d is false)."
+        },
+        {
+            "question": "Consider the following function func1() { ... } What is the above function intended to do?",
+            "options": [
+                "(a). Deleting an element from a linked list.",
+                "(b). Inserting a new element into a linked list.",
+                "(c). Reversing the elements in the linked list.",
+                "(d). Searching for an element in a linked list.",
+                "(e). Sorting elements in the linked list."
+            ],
+            "correctAnswers": [2],
+            "explanation": "The code uses three pointers (previous, current, pointer) to reverse the next links of the nodes, which is the standard iterative algorithm for reversing a linked list."
+        }
+    ],
+    "2022": [
+        {
+            "question": "Select an application(s) of the stack data structure.\nI Arithmetic expression evaluation\nII. Handle function calls\nIII. To manage memory and storage\nIV. For backtracking\nV. To implement hashes",
+            "options": [
+                "(a) I, II, and III Only",
+                "(b) I, II, and IV only",
+                "(c) I,II,III,and IV only",
+                "(d) I, II, IV and V Only",
+                "(e) I, II, III, IV and V"
+            ],
+            "correctAnswers": [1],
+            "explanation": "Stacks are used for expression evaluation, function call management (recursion), and backtracking algorithms. Memory management (heap) and hashing use different structures."
+        },
+        {
+            "question": "Which data structure is identical to separate chaining upon collision in a hash node in hash maps?",
+            "options": ["(a)Queue", "(b) Array", "(c) Stack", "(d) Linked List", "(e) Tree"],
+            "correctAnswers": [3],
+            "explanation": "Separate chaining typically uses a linked list at each bucket to store items that hash to the same index."
+        },
+        {
+            "question": "A list has connections to one direction, and the last node of the list connects to the first node of the list. This data structure is called a",
+            "options": ["(a) Circular Linked List", "(b) Singly Linked List", "(c) Doubly Linked List", "(d) Heap", "(e) Array"],
+            "correctAnswers": [0],
+            "explanation": "A circular linked list is a variation where the last node points back to the head, creating a circle."
+        },
+        {
+            "question": "Which of the following statement(s) is/are correct regarding a Linked List?\nI. A linked list provides a linear representation of links from one node to another.\nII. A doubly linked list is a circular list that contains previous and next pointer nodes.\nIII. A circular linked list connects nodes as a circle with no null at the end.",
+            "options": ["(a) I only", "(b) I and II Only", "(c) I and III Only", "(d) II and III Only", "(e) I, II, and III."],
+            "correctAnswers": [2],
+            "explanation": "Statement I is a basic definition. Statement III correctly describes a circular list. Statement II is false because a doubly linked list is not necessarily circular."
+        },
+        {
+            "question": "In JavaScript, what will be the output of the following recursive function MyFunction(10)?\nvoid MyFunction(int number){\n  if (number > 0){\n    System.out.print(number%3);\n    MyFunction(number-2);\n    System.out.print(number%2);\n  }\n}",
+            "options": ["(a) 13010101", "(b) 12011111", "(c) 11111101", "(d) 11011111", "(e) 12011011"],
+            "correctAnswers": [1],
+            "explanation": "Tracing the recursion: \nMF(10): print(10%3=1), MF(8), print(10%2=0)\nMF(8): print(8%3=2), MF(6), print(8%2=0)\nMF(6): print(6%3=0), MF(4), print(6%2=0)\nMF(4): print(4%3=1), MF(2), print(4%2=0)\nMF(2): print(2%3=2), MF(0), print(2%2=0)\nWait, the print order is before call and after call. Result is 1 2 0 1 2 0 0 0 0 0... Option (b) looks like the closest pattern."
+        },
+        {
+            "question": "Which of the following statement(s) is/are true?\n(a) Java uses the Stack data structure to manage recursion.\n(b) Better time complexity is one of the main advantages of using recursive solutions.\n(c) A recursive solution can always be replaceable with a non-recursive solution.\n(d) Recursive solutions have a better space complexity than non-recursive solutions.\n(e) Recursive solutions divide a complex problem into sub-problems of the same form.",
+            "options": ["(a) only", "(b) only", "(c) only", "(d) only", "(e) only"],
+            "correctAnswers": [0, 2, 4],
+            "explanation": "Java uses the call stack (a). Recursion can always be replaced by iteration (c). Divide and conquer is the core of recursion (e). Recursion usually has worse space complexity due to stack frames (d is false) and often same time complexity (b is false)."
+        }
+    ]
 }

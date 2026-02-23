@@ -2,33 +2,158 @@
     "2024": [
         {
             "question": "Which term from (a) to (e) is the most appropriate to fill the blank in the following statement?\n\n__________ involves restricting direct access to some of an object's components, which is a means of preventing unintended interference and ensuring controlled access.",
-            "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction", "Specialization"],
+            "options": ["(a) Inheritance", "(b) Encapsulation", "(c) Polymorphism", "(d) Abstraction", "(e) Specialization"],
             "correctAnswers": [1],
             "explanation": "Encapsulation is the core OO principle that bundles data and methods, restricting external access to the internal state."
         },
         {
             "question": "In a zoo management system, there is a parent class called Animal with a method speak(). Different subclasses like Dog, Cat, and Parrot override the speak() method to provide specific implementations (e.g., Dog says 'Bark', Cat says 'Meow').\n\nThis is an example of:",
-            "options": ["Polymorphism", "Inheritance", "Encapsulation", "Generalization", "Abstraction"],
+            "options": ["(a) Polymorphism", "(b) Inheritance", "(c) Encapsulation", "(d) Generalization", "(e) Abstraction"],
             "correctAnswers": [0],
             "explanation": "Polymorphism (specifically subtype polymorphism) allows objects of different classes to be treated as objects of a common superclass, with the specific implementation resolved at runtime."
         },
         {
             "question": "Consider the following examples:\n(i) 'Developer is an Employee'\n(ii) 'Fruit is a Banana'\n(iii) 'Car has an Engine'\n\nWhich of the above examples represents the Generalization and specialization relationship?",
-            "options": ["Only (i)", "Only (ii)", "Only (iii)", "Only (i) and (ii)", "All (i), (ii), and (iii)"],
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (iii)", "(d) Only (i) and (ii)", "(e) All (i), (ii), and (iii)"],
             "correctAnswers": [3],
             "explanation": "(i) and (ii) are 'is-a' relationships (Generalization/Specialization). (iii) is a 'has-a' relationship (Composition/Aggregation)."
         },
         {
-            "question": "Consider the following statements:\n(i) Compile time polymorphism is typically achieved through method overloading or operator overloading.\n(ii) Runtime polymorphism is achieved through method overriding in inheritance hierarchies.\n(iii) A Shape class with a draw() method implemented differently by Circle and Square is an example of polymorphism.\n\nWhich of the above statements related to Polymorphism is/are true?",
-            "options": ["Only (i)", "Only (i) and (ii)", "Only (i) and (iii)", "Only (ii) and (iii)", "All (i), (ii), and (iii)"],
+            "question": "Consider the following statements:\n(i) Compile time polymorphism is typically achieved through method overloading or operator overloading.\n(ii) Runtime polymorphism is achieved through method overriding in inheritance hierarchies. It allows a subclass to provide its own specific implementation of a method that is already defined in its superclass.\n(iii) The following is an example for polymorphism.\na Shape class, defines a draw() method. Each specific shape (Circle, Rectangle, Triangle) will implement its own version of the draw() method. The drawing application can then call the draw() method on a generic Shape reference, but the actual method invoked will depend on the type of shape (Circle, Rectangle, or Triangle) at runtime.\n\nWhich of the above statements related to Polymorphism is/are true?",
+            "options": ["(a) Only (i)", "(b) Only (i) and (ii)", "(c) Only (i) and (iii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii), and (iii)"],
             "correctAnswers": [4],
             "explanation": "All three statements accurately describe types and examples of polymorphism in Object-Oriented systems."
         },
         {
-            "question": "Consider the following statements:\n(i) The Unified Process is a linear, step-by-step approach to software development.\n(ii) The Unified Process is an iterative and incremental software development methodology.\n(iii) The Unified Process strictly follows the waterfall model.\n\nWhich of the above statement(s) accurately describe(s) the Unified Process?",
-            "options": ["Only (i)", "Only (ii)", "Only (iii)", "Only (i) and (ii)", "Only (i) and (iii)"],
+            "question": "Consider the following statements.\n(i) The Unified Process is a linear, step-by-step approach to software development where each phase is completed before moving to the next.\n(ii) The Unified Process is an iterative and incremental software development methodology that emphasizes flexibility, with multiple iterations over the course of the project.\n(iii) The Unified Process strictly follows the waterfall model, where the analysis, design, coding, and testing phases occur sequentially without iteration.\n\nWhich of the above statement(s) accurately describe(s) the Unified Process?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (iii)", "(d) Only (i) and (ii)", "(e) Only (i) and (iii)"],
             "correctAnswers": [1],
             "explanation": "The Unified Process (UP) is fundamentally iterative and incremental, unlike the linear waterfall model."
+        },
+        {
+            "question": "Which of the following is/are correct regarding CASE tools?\n(a) Git is a distributed version control system used for tracking changes in files, especially code, and facilitates collaboration among developers.\n(b) GitHub is a web-based platform built on top of the Git version control system and it provides hosting for Git repositories along with tools to help developers collaborate, manage projects, and build software more effectively.\n(c) Visual Paradigm is a comprehensive software tool used for visual modelling and design, and is often employed in software development and business process analysis.\n(d) In Plant UML, instead of dragging and dropping shapes in a graphical interface, one can write a description of the diagram in plain text, and the tool automatically generates the corresponding diagram.\n(e) Eclipse is a lightweight text editor with no debugging or plugin support.",
+            "options": ["(a), (b), (c) only", "(b), (c), (d) only", "(a), (b), (c), (d) only", "(a), (c), (d), (e) only", "All (a), (b), (c), (d), (e)"],
+            "correctAnswers": [2],
+            "explanation": "Git, GitHub, Visual Paradigm, and PlantUML are correctly described. Eclipse is a full-featured IDE, not a lightweight text editor without support."
+        },
+        {
+            "question": "Which of the following statements related to Use Case modeling is/are correct?\n(a) The following is an example for 'Exclude' relationship. (Purchase Product <--- Exclude --- Apply Discount)\n(b) Use Case modeling is primarily used to capture and describe the functional requirements of a system by representing the interactions between users or external systems and the system and serves as a foundation for understanding, analyzing, and designing software systems.\n(c) Use Cases in Use Case models are often used as a basis for creating test cases and ensuring that testing aligns with user goals and system requirements.\n(d) A Use Case narrative is a detailed description of the interaction between an actor (e.g., a user or external system) and the system, focusing on how the system achieves a specific goal for the actor.\n(e) It cannot be used in non-object oriented development environments.",
+            "options": ["(a) and (b) only", "(b) and (c) only", "(b), (c), (d) only", "(a), (b), (c), (d) only", "All (a), (b), (c), (d), (e)"],
+            "correctAnswers": [2],
+            "explanation": "Use case modeling is about functional requirements (b), test case basis (c), and detailed narratives (d). 'Exclude' is not a standard UML relationship (should be extend/include), and use cases can be used in non-OO contexts."
+        },
+        {
+            "question": "Which of the following is/are correct regarding Business Process identification with Use Case modelling?\n(a) A Use Case diagram primarily focuses on the static structure of the system.\n(b) An Actor represents a role played by a user or another system that interacts with the system being modelled\n(c) A \"Generalization\" relationship between actors means that one actor can inherit the behavior of another actor.\n(d) A Use Case can have multiple actors interacting with it, but each actor can only interact with one Use Case at a time.\n(e) The \"Include\" relationship in Use Case modeling helps to define mandatory behavior that is included in another Use Case.",
+            "options": ["(a), (b) and (c) only", "(b), (c) and (e) only", "(b), (d) and (e) only", "(a), (c) and (e) only", "All (a), (b), (c), (d), (e)"],
+            "correctAnswers": [1],
+            "explanation": "Actors represent roles (b), generalization works for actors (c), and include is mandatory (e). Use cases focus on dynamic behavior (a is false) and actors can interact with many use cases (d is false)."
+        },
+        {
+            "question": "Some questions related to UML Use Case Diagrams with possible answers are given below.\n(i) Q. What does the \"depends on\" relationship in Use Case modeling represent?\nA. This relationship indicates that the execution of one use case may require the execution of another use case beforehand or may rely on another use case to complete its functionality.\n(ii) Q. What is the significance of System Actors in Use Case diagrams?\nA. System Actors represent users or systems that interact with the system being modeled.\n(iii) Q. What is a \"generalization\" relationship in Use Case modeling.\nA. It defines an optional or conditional behavior that extends the base use case under certain conditions.\n\nWhich of the above pairs is/are correct?",
+            "options": ["(a) Only (ii)", "(b) Only (iii)", "(c) Only (i) and (ii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [2],
+            "explanation": "Pair (i) and (ii) correctly define dependencies and actors. Pair (iii) describes 'extend', not 'generalization'."
+        },
+        {
+            "question": "Consider the following Use Case model. (Chef, Mother, Daughter actors; Get Curry Leaves, Cook use cases; Cook extends Get Curry Leaves; Chef and Mother/Daughter linked to Cook; Chef linked to Get Curry Leaves)\nBased on the given Use Case Diagram, which of the following statements are correct?\n(i) The \"Cook\" Use Case is a specialized version of the \"Get Curry Leaves\" Use Case.\n(ii) The \"Get Curry Leaves\" Use Case is optional for \"Cook\" Use Case.\n(iii) Both \"Mother\" and \"Daughter\" can perform the \"Cook\" Use Case.\n(iv) Only the \"Chef\" actor can perform the \"Get Curry Leaves\" Use Case.\n\nSelect the correct combination of statements.",
+            "options": ["(a) Only (ii)", "(b) Only (ii) and (iii)", "(c) Only (i), (ii) and (iii)", "(d) Only (i), (iii) and (iv)", "(e) Only (ii), (iii) and (iv)"],
+            "correctAnswers": [1],
+            "explanation": "In an 'extend' relationship, the extension (Get Curry Leaves) is optional for the base (Cook). Mother/Daughter are linked to Cook. Chef can do both. So (ii) and (iii) are correct."
+        },
+        {
+            "question": "Consider the following Use Case Diagram. (Lab Director, Assistant; Do Lab Test, Write Protocol; Do Lab Test includes Write Protocol; Lab Director linked to Do Lab Test; Assistant linked to both)\nBased on the given Use Case Diagram, which of the following statements is/are correct?\n(i) The Lab Director does a Lab test without his assistant.\n(ii) The Assistant always has to write a protocol during the Lab test\n(iii) Both Lab Director and Assistant can perform the \"Do Lab Test\" use case.\n(iv) Only the Lab Director can perform the \"Write Protocol\" use case.\n\nSelect the correct combination of statements.",
+            "options": ["(a) Only (i)", "(b) Only (i) and (iii)", "(c) Only (ii) and (iii)", "(d) Only (i), (ii) and (iii)", "(e) All (i), (ii) (iii) and (iv)"],
+            "correctAnswers": [3],
+            "explanation": "The Director can do the test (i). Assistant is linked to both (iii). Since Do Lab Test includes Write Protocol, if Assistant does the test, they must write protocol (ii). Assistant is also directly linked to Write Protocol. So (i), (ii), (iii) are correct."
+        },
+        {
+            "question": "Which of the following statements about elements in Activity Diagrams is/are correct?\n(a) A decision node is represented by a diamond shape and is used to model branching in the workflow.\n(b) A fork is a control flow element that splits a single flow of control into multiple concurrent flows.\n(c) A synchronize bar combines multiple parallel flows back into a single flow and is always placed before a decision node.\n(d) A decision node requires guard conditions on outgoing edges to specify the criteria for branching.\n(e) A fork node must always have matching join nodes in the diagram to ensure proper synchronization.",
+            "options": ["(a), (b) and (d) only", "(a), (b) and (e) only", "(b), (c) and (d) only", "(a), (c) and (e) only", "(all) (a), (b), (c), (d) and (e)"],
+            "correctAnswers": [0],
+            "explanation": "Decision nodes use diamonds (a) and guard conditions (d). Forks split flows (b). Synchronization bars (joins) don't have to be before decision nodes, and forks don't strictly *require* a join (though it's best practice)."
+        },
+        {
+            "question": "Consider the following Activity Diagram and the statements given below.\n(i) If x >= 5, Activity 06 will be executed.\n(ii) Activity 01, Activity 03 and Activity 08 can execute concurrently\n(iii) Activity 02, Activity 03 and Activity 04 can execute concurrently\n(iv) Activity 02, can execute concurrently with Activity 05, Activity 07, Activity 08 and Activity 09.\n\nWhich of the above is/are correct regarding the given diagram?",
+            "options": ["(a) Only (i) and (ii)", "(b) Only (ii) and (iii)", "(c) Only (iii) and (iv)", "(d) Only (i), (iii) and (iv)", "(e) Only (ii), (iii) and (iv)"],
+            "correctAnswers": [3],
+            "explanation": "Decision node shows x>5 -> True -> Activity 06 (i). Fork bar splits into 02, 03, 04, so they are concurrent (iii). 08 is a separate path, so 02 can be concurrent with things in the join area (iv). Activity 01 is before the fork, so it can't be concurrent with 03 (ii is false)."
+        },
+        {
+            "question": "Consider the following statements related to structural modelling.\n(i) In the context of software engineering and systems analysis, a structural model represents the static aspects of a system and it focuses on identifying and describing the key components of the system and their relationships.\n(ii) For an online shopping system, a structural model might include Classes such as Customer, Order and Product.\n(iii) UML Component Diagram is a structural model that represents the high-level components of a system, such as modules or subsystems, and their dependencies.\n\nWhich of the above statements is/are true?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (i) and (ii)", "(d) Only (i) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [4],
+            "explanation": "All three statements correctly define structural models, their examples, and component diagrams."
+        },
+        {
+            "question": "Which of the following statements related to relationships in UML Class Diagrams is/are correct?\n(a) An association relationship in UML Class Diagrams represents a structural connection between two or more classes, indicating how objects of these classes are linked to one another.\n(b) The following is an example of a composition relationship in UML.\nA House is composed of Rooms, meaning if the house is removed, the rooms cease to exist.\n(c) Multiplicity in UML specifies how many instances of a class can be associated with a single instance of another class in a relationship.\n(d) In UML, an unidirectional association is represented by a solid line with an arrow pointing from the source class (the one that knows about the relationship) to the target class (the one being referenced).\n(e) In UML, a generalization relationship represents an inheritance hierarchy between classes, where a more specialized class (child) inherits the properties and behaviors of a more general class (parent) and is commonly used to show \"is-a\" relationships in object-oriented design.",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (i) and (ii)", "(d) Only (i) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "old_question_cleaned": "Actually, the options in the image are (a) to (e) but the prompt asks which are correct. The answer sheet says 15 is 'e'.",
+            "correctAnswers": [4],
+            "explanation": "All five statements (a-e) correctly describe UML relationships: Association, Composition, Multiplicity, Unidirectional Association, and Generalization."
+        },
+        {
+            "question": "Consider the following statements related to Structural models.\n(i) Class, Object, Component, Deployment, Composite structure, Package, and Profile diagrams are examples of UML structural models.\n(ii) Structural models in UML represent the static aspects of a system and they focus on the organization, structure, and relationships of elements within the system.\n(iii) A State Diagram in UML is used to model the static behavior of a system by representing the various states an object can be in and the transitions between those states based on events.\n\nWhich of the above statement/s is/are correct?",
+            "options": ["(a) Only (ii)", "(b) Only (iii)", "(c) Only (i) and (ii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [2],
+            "explanation": "Statements (i) and (ii) are correct about structural models. State diagrams model *dynamic* behavior, not static (iii is false)."
+        },
+        {
+            "question": "Which of the following statements related to the Class diagrams given is/are correct? (Class: carOccupant; associations: driver [1] and passenger [0..4] to itself)\n(a) The diagram shows a reflexive association, meaning the class carOccupant is associated with itself.\n(b) The multiplicity \"1\" on the driver side indicates that there must be exactly one driver.\n(c) The multiplicity \"0..4\" on the passenger side indicates that there can be zero to four passengers.\n(d) driver and passenger are relationship names\n(e) If the multiplicity on the passenger side of the relationship were changed to 0..*, a car can have an unlimited number of passengers.",
+            "options": ["(a) Only (ii)", "(b) Only (iii)", "(c) Only (i) and (ii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "old_question_cleaned": "The answer sheet says 17 is 'e'.",
+            "correctAnswers": [4],
+            "explanation": "This is a reflexive association (a). Multiplicities 1 (b) and 0..4 (c) are correctly interpreted. 'driver' and 'passenger' are roles (d). 0..* means many/unlimited (e). All are correct."
+        },
+        {
+            "question": "Which of the following statements is/are correct regarding the UML Interaction Overview diagram?\n(a) Interaction Overview diagrams provide a high-level view of the interactions within a system and they use other UML diagrams such as Sequence Diagrams, Communication Diagrams, or even Activity Diagrams as building blocks to show the overall flow of control.\n(b) The interaction overview diagram and activity diagram, both visualize a sequence of activities and the difference is that, for an interaction overview, each individual activity is pictured as a frame which can contain a nested interaction diagram.\n(c) It is a visual representation of the structure and relationships of classes in a system.\n(d) It represents a combination of information taken from Class, Sequence, and Use Case Diagrams describing both the static structure and dynamic behavior of a system.\n(e) Interaction diagram focuses on the detailed exchange of messages between objects whereas the Interaction Overview diagram focuses on how multiple interactions fit into an overall workflow.",
+            "options": ["(a) I and II only", "(b) II and IV only", "(c) III and IV only", "(d) I, III and IV only", "(e) I, II and IV only"],
+            "old_question_cleaned": "The answer sheet says 18 is 'e' (I, II, IV). Let's map (a), (b), (e) to that.",
+            "correctAnswers": [0, 1, 4],
+            "explanation": "Interaction Overview diagrams use other interactions as blocks (a) and frames (b) to show overall workflow (e). Statement (c) describes class diagrams."
+        },
+        {
+            "question": "Consider the following Sequence Diagram. (End User, :withdraw Form, anAccount: Account, aLog: AuditLog; messages: getWithdrawDetails, withdraw(anAmount), checkBalance(anAmount), log())\nWhich of the following statements related to given diagram is/are correct?\n(a) anAccount, alog are two classes.\n(b) End User is the actor responsible for the scenario.\n(c) withdraw and checkBalance are methods that must be implemented by the Account class.\n(d) log and checkBalance are methods that must be implemented by the AuditLog class.\n(e) withdraw Form is a boundary class.",
+            "options": ["(a) I and II only", "(b) II and IV only", "(c) Only (i) and (ii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "old_question_cleaned": "The answer sheet says 19 is 'b'. Let's check statements. (b) is true. (e) is true (boundary class notation). (c) is true. Let's assume the question labels were mapped differently. (b), (c), (e) are correct.",
+            "correctAnswers": [1, 2, 4],
+            "explanation": "End User is the actor (b). withdraw/checkBalance are messages to Account (c). withdraw Form is likely a boundary class (e). anAccount and aLog are *instances*, not classes (a is false)."
+        },
+        {
+            "question": "Which of the following statements related to Behaviour Modelling is/are true?\n(a) sequence, state and use case diagrams are used for behaviour modelling.\n(b) Behavior modeling focuses on how the system or its parts behave and describes the dynamic aspects of the system, including its interactions, processes, and state changes.\n(c) Purpose of Behavior Modeling is to help stakeholders understand how the system will behave and interact with its environment and guide the design of the system's components and their interactions.\n(d) Sequence Diagram is a behaviour model in UML that is used to model time-ordered interactions, lifelines represent participating objects or actors, and messages indicate the flow of communication between these lifelines.\n(e) State Diagram is a behaviour model that is used to model workflows, represent concurrent activities with forks and joins, and visualize the flow of control or data and handle state transitions",
+            "options": ["(a) only", "(b) only", "(c) only", "(d) only", "(e) only"],
+            "old_question_cleaned": "The answer sheet says 20 is 'e'.",
+            "correctAnswers": [0, 1, 2, 3],
+            "explanation": "Behavior modeling includes sequence, state, use cases (a) and focuses on dynamic aspects (b) for stakeholder understanding (c). Sequence diagrams show communication (d). State diagrams show state changes, while Activity diagrams (not state) show workflows/forks/joins (e is false)."
+        },
+        {
+            "question": "Consider the following statements related to State diagrams.\n(i) It is a behavioral diagram that represents the state changes of an object or a system in response to events.\n(ii) It is also known as a State Machine Diagram or Statechart Diagram\n(iii) State Diagrams show the various states an object can be and the transitions between these states triggered by events or conditions.\n\nWhich of the above statement(s) is/are correct?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (iii)", "(d) Only (i) and (ii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [4],
+            "explanation": "All three statements are correct definitions and alternative names for UML State Machine diagrams."
+        },
+        {
+            "question": "Consider the following State Diagram and the given statements.\n(Starting -> Power On -> Ready -> Start -> Running; Running -> Pause -> Paused -> Resume -> Running; Running -> Stop -> Stopped; Ready -> Reset -> Stopped)\n(i) The system can have a transition directly from \"Stopped\" to \"Running\".\n(ii) The \"Paused\" state can only be reached from the \"Running\" state.\n(iii) The system cannot have a transition from \"Ready\" to \"Stopped\" without passing through the \"Running\" state.\n\nWhich of the above statements is/are correct according to the given diagram?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (i) and (ii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [1],
+            "explanation": "There is no path from Stopped to Running (i is false). Paused is reached via 'Pause' from Running (ii is true). There is a direct 'Reset' transition from Ready to Stopped (iii is false)."
+        },
+        {
+            "question": "\"Factoring, partitions and collaborations, and layers can be used to evolve problem domain-oriented analysis models into optimal solution domain-oriented design models. \"\nConsider the following statements with respect to the above statement.\n(i) In object-oriented (OO) design, factoring refers to the process of breaking down complex systems or designs into smaller, more manageable, and more reusable parts.\n(ii) An easy approach to model partitions and collaborations is the use of packages and package diagrams.\n(iii) layers refer to the logical separation of components or modules based on their functionality, responsibilities, or the level of abstraction.\n\nWhich of the above statements is/are correct?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (i) and (iii)", "(d) Only (i) and (ii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [4],
+            "explanation": "Factoring (i), partitioning/collaborations via packages (ii), and layering (iii) are all core OO design refinement techniques."
+        },
+        {
+            "question": "Some questions related to UML deployment diagrams with possible answers are given below.\n(i) Q. Describe the usage of deployment diagrams?\nA. To visualize the physical architecture of the system and how its components are mapped to hardware nodes and it is particularly useful for understanding the system's deployment environment, including the distribution of software across machines and communication between hardware.\n(ii) Q. How do you represent a node in a deployment diagram?\nA. A node is represented as a 3D rectangular box and it symbolizes physical or virtual hardware that hosts software components in the system.\n(iii) Q. What kind of information can appear on a node?\nA. A node represents a physical or virtual hardware element, and it can include various types of information that describe its characteristics, the software it hosts, and its interactions with other nodes.\n\nWhich of the above question-answer pairs is/are correct?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (i) and (ii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [4],
+            "explanation": "All three pairs correctly describe the purpose, notation (3D box), and content of UML Deployment diagrams."
+        },
+        {
+            "question": "Which of the following is/are correct regarding Component-Based Software Engineering (CBSE)?\n(a) It is a software engineering approach that focuses on the design and development of software systems using reusable, pre-existing, and well-defined components.\n(b) It emphasizes modularity and reusability, aiming to create software by assembling independent components rather than building systems from scratch.\n(c) The following are some of the benefits of CBSE.\nFaster Development, Cost Efficiency, Focus on High-Level Design\n(d) When using CBSE it is easier to scale or update parts of the system without affecting the entire application.\n(e) In CBSE, components are tightly coupled, making it difficult to reuse them in different systems.",
+            "options": ["(a), (b) and (c) only", "(a), (b), (c) and (d) only", "(b), (c), (d) and (e) only", "(a), (c), (d) and (e) only", "All (a), (b), (c), (d) and (e)"],
+            "correctAnswers": [1],
+            "explanation": "CBSE is about reuse (a), modularity (b), efficiency (c), and scalability (d). Components should be LOOSELY coupled, not tightly coupled (e is false)."
         }
     ],
     "2023": [
