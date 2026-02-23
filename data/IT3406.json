@@ -1,44 +1,909 @@
 {
     "2024": [
         {
-            "question": "What would be the output of the following PHP script when executed?
-
-<?php
-$x = "Hello";
-$y = "World";
-$z = "$x - $y";
-echo $z;
-?>",
-            "options": ["Hello World", "HELLO - WORLD!", "world hello", "Hello - World", "Error"],
+            "question": "What would be the output of the following PHP script when executed ?\n\n<?php\n$x = \"Hello\";\n$y = \"World\";\n$z = \"$x - $y\";\necho $z;\n?>",
+            "options": [
+                "(a) Hello World",
+                "(b) HELLO - WORLD!",
+                "(c) world hello",
+                "(d) Hello - World",
+                "(e) Error"
+            ],
             "correctAnswers": [3],
-            "explanation": "In PHP, variables inside double quotes are interpolated. So "$x - $y" becomes "Hello - World"."
+            "explanation": "In PHP, variables inside double quotes are interpolated. $z will be assigned the value 'Hello - World'."
         },
         {
-            "question": "What would be the output of the following PHP script when executed?
-
-<?php
-$x = 10.4;
-$y = 15;
-$z = $x + $y;
-echo "Sum: $z";
-?>",
-            "options": ["25", "25.4", "Sum: 25.4", "Sum 25.4", "Error"],
+            "question": "What would be the output of the following PHP script when executed ?\n\n<?php\n$x = 10.4;\n$y = 15;\n$z = $x + $y;\necho \"Sum: $z\";\n?>",
+            "options": [
+                "(a) 25",
+                "(b) 25.4",
+                "(c) Sum: 25.4",
+                "(d) Sum 25.4",
+                "(e) Error"
+            ],
             "correctAnswers": [2],
-            "explanation": "PHP will add the float and integer to get 25.4, and then echo it prefixed with 'Sum: '."
+            "explanation": "The sum of 10.4 and 15 is 25.4. The echo statement prints 'Sum: ' followed by the value of $z."
         },
         {
             "question": "What is the purpose of the git init command?",
             "options": [
-                "Clone an existing repository.",
-                "Initialize a new Git repository.",
-                "Add changes to the staging area.",
-                "Create a new branch.",
-                "Commit the current branch changes."
+                "(a) Clone an existing repository.",
+                "(b) Initialize a new Git repository.",
+                "(c) Add changes to the staging area.",
+                "(d) Create a new branch.",
+                "(e) Commit the current branch changes to the repository."
             ],
             "correctAnswers": [1],
-            "explanation": "git init creates a new sub-directory named .git that contains all of your necessary repository files — a Git repository skeleton."
+            "explanation": "The 'git init' command is used to create a new, empty Git repository or reinitialize an existing one."
+        },
+        {
+            "question": "Which of the following commands can be used to view the commit history in Git?",
+            "options": [
+                "(a) git log",
+                "(b) git commit",
+                "(c) git status",
+                "(d) git history",
+                "(e) git view"
+            ],
+            "correctAnswers": [0],
+            "explanation": "'git log' displays the commit history for the current branch."
+        },
+        {
+            "question": "Which function can be used in PHP to remove the last element from an array?",
+            "options": [
+                "(a) array_pop()",
+                "(b) array_shift()",
+                "(c) array_slice()",
+                "(d) array_splice()",
+                "(e) array_del()"
+            ],
+            "correctAnswers": [0],
+            "explanation": "array_pop() pops and returns the last value of the array, shortening the array by one element."
+        },
+        {
+            "question": "What is the correct syntax to start a PHP session?",
+            "options": [
+                "(a) start_session();",
+                "(b) session_start();",
+                "(c) begin_session();",
+                "(d) open_session();",
+                "(e) session_unset();"
+            ],
+            "correctAnswers": [1],
+            "explanation": "session_start() creates a session or resumes the current one based on a session identifier passed via a GET or POST request, or passed via a cookie."
+        },
+        {
+            "question": "Select statements that correctly describes PHP filters,\n\nI. PHP filters are used to validate external data inputs.\nII. PHP filters are used to validate external output data.\nIII. PHP filters are used to sanitize data.\nIV. filter_var() is a built-in function in PHP.",
+            "options": [
+                "(a) IV only",
+                "(b) I and III only",
+                "(c) III and IV only",
+                "(d) I, II and IV only",
+                "(e) I, III and IV only"
+            ],
+            "correctAnswers": [4],
+            "explanation": "PHP filters are primarily used to validate and sanitize external input. filter_var() is the core function for this."
+        },
+        {
+            "question": "What would the output of the following PHP script when executed?\n\n<?php\n$word = \"<h1>!!Hello BIT People!!</h1>\";\n$newword = filter_var($word, FILTER_SANITIZE_STRING);\necho $newword;\n?>",
+            "options": [
+                "(a) <h1>!!Hello BIT People!!</h1>",
+                "(b) <h1>Hello BIT People</h1>",
+                "(c) Hello BIT People",
+                "(d) !!Hello BIT People!!",
+                "(e) Error"
+            ],
+            "correctAnswers": [3],
+            "explanation": "FILTER_SANITIZE_STRING strips tags and HTML-encodes special characters. In this case, it removes the <h1> tags, leaving '!!Hello BIT People!!'."
+        },
+        {
+            "question": "Which of the following is NOT a valid variable name in PHP?",
+            "options": [
+                "(a) $variable1",
+                "(b) $_variable",
+                "(c) $1variable",
+                "(d) $Variable",
+                "(e) $variable$"
+            ],
+            "correctAnswers": [2],
+            "explanation": "PHP variable names cannot start with a number. They must start with a letter or an underscore."
+        },
+        {
+            "question": "What would be the output of the following PHP script?\n\n<?php\n$colors = [\"red\", \"green\", \"blue\"];\necho count($colors);\n?>",
+            "options": [
+                "(a) 2",
+                "(b) 3",
+                "(c) 4",
+                "(d) 5",
+                "(e) Error"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The count() function returns the number of elements in an array. Here there are 3 elements."
+        },
+        {
+            "question": "What would be the output of the following PHP script?\n\n<?php\n$a = 10;\n$b = 15;\nif ($a < $b and $a > 5) {\n  echo \"Condition met\";\n} else {\n  echo \"Condition failed\";\n}\n?>",
+            "options": [
+                "(a) Condition met",
+                "(b) Condition failed",
+                "(c) Error",
+                "(d) 10",
+                "(e) 15"
+            ],
+            "correctAnswers": [0],
+            "explanation": "Both conditions (10 < 15) and (10 > 5) are true, so 'Condition met' is echoed."
+        },
+        {
+            "question": "After creating a MYSQL database and a table, which of the following statements are TRUE regarding adding data to MYSQL table.\n\nI. SQL query must be quoted in PHP\nII. String values inside SQL query is optional to have quotes.\nIII. Numeric values can be added to single quotes inside the SQL query.\nIV. NULL values must not be quoted in the SQL query.",
+            "options": [
+                "(a) I and III only",
+                "(b) I and IV only",
+                "(c) III and IV only",
+                "(d) I,II and IV only",
+                "(e) I,III and IV only"
+            ],
+            "correctAnswers": [1],
+            "explanation": "SQL queries are strings in PHP, so they must be quoted (I). NULL values in SQL should not be quoted (IV). String values MUST be quoted in SQL (II is false). While numeric values *can* be quoted, it's not standard (III is debatable but usually I and IV are the definitive true statements in this context)."
+        },
+        {
+            "question": "Which of the following is NOT true about the strlen() function in PHP?",
+            "options": [
+                "(a) It returns the length of a string.",
+                "(b) It includes white spaces in the count.",
+                "(c) It counts the number of characters in an array.",
+                "(d) It works with string variables.",
+                "(e) It returns an integer value."
+            ],
+            "correctAnswers": [2],
+            "explanation": "strlen() is used for strings, not arrays. count() or sizeof() is used for arrays."
+        },
+        {
+            "question": "What is the primary purpose of JSON.parse() in JavaScript?",
+            "options": [
+                "(a) To parse a JSON string into an object.",
+                "(b) To convert a JSON object into a string.",
+                "(c) To make an HTTP request.",
+                "(d) To parse HTML.",
+                "(e) To validate JSON data."
+            ],
+            "correctAnswers": [0],
+            "explanation": "JSON.parse() takes a JSON string and transforms it into a JavaScript object."
+        },
+        {
+            "question": "Which JavaScript method is used to add an element to the beginning of an array ?",
+            "options": [
+                "(a) push()",
+                "(b) pop()",
+                "(c) unshift()",
+                "(d) shift()",
+                "(e) splice()"
+            ],
+            "correctAnswers": [2],
+            "explanation": "unshift() adds one or more elements to the beginning of an array and returns the new length."
+        },
+        {
+            "question": "In JavaScript, what is the value of null considered?",
+            "options": [
+                "(a) An integer",
+                "(b) A string",
+                "(c) An object",
+                "(d) A boolean",
+                "(e) Undefined"
+            ],
+            "correctAnswers": [2],
+            "explanation": "In JavaScript, typeof null is 'object'. This is a well-known historical bug in the language."
+        },
+        {
+            "question": "In PHP, which method can be used to create a cookie ?",
+            "options": [
+                "(a) setcookie()",
+                "(b) create_cookie()",
+                "(c) new_cookie()",
+                "(d) init_cookie()",
+                "(e) add_cookie()"
+            ],
+            "correctAnswers": [0],
+            "explanation": "setcookie() defines a cookie to be sent along with the rest of the HTTP headers."
+        },
+        {
+            "question": "What would be the output of the following PHP script?\n\n<?php\n$x = \"10 apples\";\n$y = 5;\necho $x + $y;\n?>",
+            "options": [
+                "(a) 10",
+                "(b) 15",
+                "(c) 10 apples 5",
+                "(d) 105",
+                "(e) \"10 apples5\""
+            ],
+            "correctAnswers": [1],
+            "explanation": "In older PHP versions (or with warnings), string '10 apples' is converted to integer 10 when used in a numeric operation. 10 + 5 = 15."
+        },
+        {
+            "question": "What would be the output of the following JavaScript code when it is executed ?\n\n<?php\nfunction add($a, $b = 5) {\n  return $a + $b;\n}\necho add(10);\n?>",
+            "options": [
+                "(a) 5",
+                "(b) 10",
+                "(c) 15",
+                "(d) Error",
+                "(e) Null"
+            ],
+            "correctAnswers": [2],
+            "explanation": "The function has a default value for $b. Calling add(10) uses $a=10 and $b=5, returning 15."
+        },
+        {
+            "question": "What would be the output of the following JavaScript code when executed ?\n\n<script>\nlet a = 7;\nlet b = 4;\nlet c = a % b;\ndocument.getElementById(\"demo\").innerHTML = c;\n</script>",
+            "options": [
+                "(a) 7",
+                "(b) 4",
+                "(c) 3",
+                "(d) 1.75",
+                "(e) Error"
+            ],
+            "correctAnswers": [2],
+            "explanation": "The modulo operator (%) returns the remainder of the division. 7 / 4 = 1 remainder 3."
+        },
+        {
+            "question": "Which of the following are common types of web attacks?\n\nI. Cross-Site Scripting (XSS)\nII. SQL Injection\nIII. Man-in-the-Middle (MITM)\nIV. Distributed Denial of Service (DDoS)",
+            "options": [
+                "(a) I and II only",
+                "(b) II and IV only",
+                "(c) I,II and III only",
+                "(d) II,III and IV only",
+                "(e) All I, II, III and IV."
+            ],
+            "correctAnswers": [4],
+            "explanation": "All listed are common and significant security threats to web applications."
+        },
+        {
+            "question": "Which of the following statements about the XMLHttpRequest object in AJAX are true?\n\nI. It is used to send HTTP requests and receive HTTP responses.\nII. It only supports GET requests.\nIII. It is a key component in implementing AJAX.\nIV. It can be used to fetch data asynchronously.",
+            "options": [
+                "(a) I and II only",
+                "(b) II and IV only",
+                "(c) III and IV only",
+                "(d) I,III and IV only",
+                "(e) All I, II, III and IV."
+            ],
+            "correctAnswers": [3],
+            "explanation": "XHR supports various methods (GET, POST, etc.), making II false. I, III, and IV are correct."
+        },
+        {
+            "question": "Which of the following measures can help prevent SQL Injection attacks in web applications?\n\nI. Use prepared statements and parameterized queries.\nII. Escape user inputs before executing SQL queries.\nIII. Avoid displaying raw error messages.\nIV. Allow unrestricted user inputs in SQL queries.",
+            "options": [
+                "(a) I and II only",
+                "(b) I and III only",
+                "(c) II and IV only",
+                "(d) I,II and III only",
+                "(e) All I, II, III and IV."
+            ],
+            "correctAnswers": [3],
+            "explanation": "Prepared statements and input escaping are primary defenses. Hiding error messages prevents leaking schema info. IV is exactly what causes the vulnerability."
+        },
+        {
+            "question": "Which of the following are advantages of using AJAX in web applications?\n\nI. Reduces server load by fetching only required data.\nII. Enables asynchronous data retrieval without reloading the webpage.\nIII. Eliminates the need for server-side scripting.\nIV. Allows seamless communication between client and server.",
+            "options": [
+                "(a) I and II only",
+                "(b) I and IV only",
+                "(c) I, II and IV only",
+                "(d) II,III and IV only",
+                "(e) All I, II, III and IV."
+            ],
+            "correctAnswers": [2],
+            "explanation": "AJAX does not eliminate the need for server-side scripting; it just changes how the client interacts with it."
+        },
+        {
+            "question": "Which of the following SQL clauses is used to filter rows based on a condition?",
+            "options": [
+                "(a) GROUP BY",
+                "(b) HAVING",
+                "(c) ORDER BY",
+                "(d) SELECT",
+                "(e) WHERE"
+            ],
+            "correctAnswers": [4],
+            "explanation": "The WHERE clause is used to filter records that fulfill a specified condition."
         }
     ],
-    "2023": [],
-    "2022": []
+    "2023": [
+        {
+            "question": "Which would be the output of the following PHP statement(s) that will output $y on the screen?",
+            "options": [
+                "(a) echo \"$y\";",
+                "(b) echo \"\\$y\";",
+                "(c) echo '$y';",
+                "(d) echo \"$$y\";",
+                "(e) echo \"/$$y\";"
+            ],
+            "correctAnswers": [1],
+            "explanation": "To echo a literal dollar sign followed by a letter in double quotes, you must escape it with a backslash."
+        },
+        {
+            "question": "Which of the following function(s) can be used to create a constant in PHP ?",
+            "options": [
+                "(a) create()",
+                "(b) constant()",
+                "(c) declare()",
+                "(d) define()",
+                "(e) defined()"
+            ],
+            "correctAnswers": [3],
+            "explanation": "The define() function is used to define a constant at runtime."
+        },
+        {
+            "question": "What is the functionality of mysqli_query() function?",
+            "options": [
+                "(a) Command PHP to insert data to a database.",
+                "(b) Command PHP to execute a SQL statement.",
+                "(c) Command PHP to retrieve data from a table.",
+                "(d) Command PHP to create a table in a database.",
+                "(e) Command PHP to write a SQL query."
+            ],
+            "correctAnswers": [1],
+            "explanation": "mysqli_query() performs a query on the database. It can be any valid SQL statement (SELECT, INSERT, UPDATE, etc.)."
+        },
+        {
+            "question": "What will be the output of the following PHP script?\n<?php\n$a = 5;\necho --$a;\necho $a--;\necho $a;\necho ++$a;\necho $a++;\n?>",
+            "options": [
+                "(a) 55455",
+                "(b) 44344",
+                "(c) 33433",
+                "(d) --$a$a--$a++$a$a++",
+                "(e) --$5$5--$5++$5$5++"
+            ],
+            "correctAnswers": [1],
+            "explanation": "1. --$a (pre-decrement) -> 4, output 4.\n2. $a-- (post-decrement) -> output 4, then a=3.\n3. echo $a -> output 3.\n4. ++$a (pre-increment) -> 4, output 4.\n5. $a++ (post-increment) -> output 4, then a=5. Result: 44344."
+        },
+        {
+            "question": "What will be the output of the following PHP script?\n<?php\n$x = 5;\nfunction mytest() {\n  $x = 10;\n  echo \"value of x: \" . $x;\n  $x = 15;\n  echo \" value of x: \" . $x;\n}\nmytest();\n?>",
+            "options": [
+                "(a) No output",
+                "(b) value of x: 5 value of x: 5",
+                "(c) value of x: 5 value of x: 10",
+                "(d) value of x: 5 value of x: 15",
+                "(e) value of x: 10 value of x: 15"
+            ],
+            "correctAnswers": [4],
+            "explanation": "The variable $x inside the function is local to that function. It is initialized to 10, then changed to 15."
+        },
+        {
+            "question": "What will be the output of the following PHP script?\n<?php\n$house_rent = 500;\nfunction expenses($other) {\n  $house_rent = 600 + $other;\n  echo $house_rent;\n  return $house_rent;\n}\nexpenses(150);\necho \" \" . $house_rent;\n?>",
+            "options": [
+                "(a) No output",
+                "(b) 750 500",
+                "(c) 600 150",
+                "(d) 600 500",
+                "(e) 500 750"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The function calculates 600 + 150 = 750 and echoes it. The global $house_rent remains 500 and is echoed after the function call."
+        },
+        {
+            "question": "What is the function that used to start database with mysql ?",
+            "options": [
+                "(a) mysql_select_db()",
+                "(b) mysql_start()",
+                "(c) mysql_start_db()",
+                "(d) mysql_connect()",
+                "(e) mysql_begin()"
+            ],
+            "correctAnswers": [3],
+            "explanation": "In older PHP (mysql extension), mysql_connect() was used to establish a connection to the database server."
+        },
+        {
+            "question": "Which of the following statement(s) is/are true about 'cookies'?\nI. A cookie is sent back to the website by a browser every time the user is accessing the same website by using the same browser.\nII. The browsers can either enable or disable cookies.\nIII. In PHP, data stored in cookies can be accessed by using the global array $_COOKIE_PHP.",
+            "options": [
+                "(a) I only",
+                "(b) II only",
+                "(c) III only",
+                "(d) I and II only",
+                "(e) I and III only"
+            ],
+            "correctAnswers": [3],
+            "explanation": "I and II are true. III is false because the global array is $_COOKIE, not $_COOKIE_PHP."
+        },
+        {
+            "question": "Which of the following statement(s) is/are true about 'Inheritance'?\nI. A subclass inherits all the public and protected properties and methods from the parent class.\nII. When defining a subclass, the parent class must be defined before defining the child class.\nIII. Inheritance facilitates the implementation of additional functionality in similar objects without the need of reimplementing all the shared functionality.",
+            "options": [
+                "(a) I only",
+                "(b) II only",
+                "(c) I and III only",
+                "(d) II and III only",
+                "(e) I, II and III only"
+            ],
+            "correctAnswers": [4],
+            "explanation": "All three statements correctly describe the principles and requirements of inheritance in OOP."
+        },
+        {
+            "question": "Which git command removes untracked files from the working directory ?",
+            "options": [
+                "(a) git commit",
+                "(b) git reset",
+                "(c) git push",
+                "(d) git clean",
+                "(e) git remove"
+            ],
+            "correctAnswers": [3],
+            "explanation": "'git clean' removes untracked files from the working tree."
+        },
+        {
+            "question": "What happens when you provide the command \"git checkout master\" ?",
+            "options": [
+                "(a) Logs into a new branch.",
+                "(b) Create a new branch called 'master'.",
+                "(c) Switch to the 'master' branch.",
+                "(d) Logs out of the 'master' branch.",
+                "(e) Logs out of the 'master' branch and creates a new branch."
+            ],
+            "correctAnswers": [2],
+            "explanation": "'git checkout master' switches the current HEAD to the branch named 'master'."
+        },
+        {
+            "question": "Which of the following functions return the count of characters in a string variable ?",
+            "options": [
+                "(a) chr()",
+                "(b) len()",
+                "(c) count()",
+                "(d) strlen()",
+                "(e) strcount()"
+            ],
+            "correctAnswers": [3],
+            "explanation": "strlen() is the standard PHP function to get string length."
+        },
+        {
+            "question": "What symbols does JavaScript use instead of == and != ?",
+            "options": [
+                "(a) Uses equalto().",
+                "(b) Uses bitwise checking operator.",
+                "(c) Uses === and !== instead.",
+                "(d) Uses equals and notequals instead.",
+                "(e) Uses equals() and notequals() instead."
+            ],
+            "correctAnswers": [2],
+            "explanation": "JavaScript uses === and !== for strict equality/inequality checks (comparing both value and type)."
+        },
+        {
+            "question": "Which of the following statement(s) is/are TRUE regarding the given code snippet ?\nCREATE TABLE student (\n  stu_name CHAR(30),\n  stu_id INT\n);",
+            "options": [
+                "(a) Exist two(2) tuples in this SQL table.",
+                "(b) Exist two(2) attributes in this SQL table.",
+                "(c) Exist thirty(30) attributes in this SQL table.",
+                "(d) 'stu_name' is an integer data type.",
+                "(e) Name of the table is 'student'."
+            ],
+            "correctAnswers": [1, 4],
+            "explanation": "The table has two attributes (stu_name and stu_id) and its name is 'student'. (The provided answer sheet might specify one, but both b and e are factually true based on the SQL)."
+        },
+        {
+            "question": "Which of the following is/are correct regarding HTTP GET request?",
+            "options": [
+                "(a) GET requests are used to request and modify data.",
+                "(b) GET requests can be cached.",
+                "(c) GET requests cannot be bookmarked.",
+                "(d) GET requests are mainly used to handle sensitive data.",
+                "(e) GET requests have length restrictions."
+            ],
+            "correctAnswers": [1, 4],
+            "explanation": "GET requests are cacheable and have length limits (imposed by browsers/servers). They are NOT for modifying data or handling sensitive info."
+        },
+        {
+            "question": "Which of the following is/are correct regarding the if-elseif-else statements in PHP ?",
+            "options": [
+                "(a) I only",
+                "(b) I and II only",
+                "(c) I and III only",
+                "(d) II and III only",
+                "(e) I, II and III are correct."
+            ],
+            "correctAnswers": [1],
+            "explanation": "I and II are true. III is false because Statement C only executes if both A and B are false."
+        },
+        {
+            "question": "What will be the output of the following PHP code ?\n<?php\nfunction y() {\n  echo \" Y \";\n}\nfunction x() {\n  y();\n  echo \" X\";\n  y();\n}\nx();\n?>",
+            "options": [
+                "(a) X Y X",
+                "(b) XYX",
+                "(c) Y X Y",
+                "(d) Y XY",
+                "(e) Error"
+            ],
+            "correctAnswers": [2],
+            "explanation": "x() calls y() [prints Y], then prints X, then calls y() again [prints Y]. Result: Y X Y."
+        },
+        {
+            "question": "Which built-in-method combines the text of two strings and returns a new string ?",
+            "options": [
+                "(a) addStr()",
+                "(b) addStrings()",
+                "(c) combine()",
+                "(d) concatenate()",
+                "(e) concat()"
+            ],
+            "correctAnswers": [4],
+            "explanation": "In JavaScript, the concat() method is used to join two or more strings."
+        },
+        {
+            "question": "Which of the following is/are NOT possible to display the output using JavaScript?",
+            "options": [
+                "(a) Using innerHTML",
+                "(b) document.write()",
+                "(c) document.alert()",
+                "(d) window.alert()",
+                "(e) console.log()"
+            ],
+            "correctAnswers": [2],
+            "explanation": "The correct method is window.alert() or simply alert(). document.alert() does not exist."
+        },
+        {
+            "question": "What happens if JavaScript Global and Local variables have the same name?",
+            "options": [
+                "(a) Both variables have the same precedence.",
+                "(b) The global variable has the higher precedence over local variable.",
+                "(c) The local variable has the higher precedence over global variable.",
+                "(d) Browser crashes.",
+                "(e) Nothing displays, generate error message."
+            ],
+            "correctAnswers": [2],
+            "explanation": "Local variables shadow global variables of the same name within their scope."
+        },
+        {
+            "question": "What is/are the possible scope definitions that can be used in JavaScript variable declarations ?",
+            "options": [
+                "(a) Global scope",
+                "(b) Local scope",
+                "(c) Object scope",
+                "(d) Function scope",
+                "(e) Private scope"
+            ],
+            "correctAnswers": [0, 1, 3],
+            "explanation": "JavaScript variables primarily have Global, Function, or Block (since ES6) scope."
+        },
+        {
+            "question": "What would be the output of the following JavaScript code when it is executed ?\nlet str = \"\";\nlet i = 0;\nwhile (i < 8) {\n  str += \" \" + i*7;\n  i++;\n}",
+            "options": [
+                "(a) 0 8 16 24 32 40 48 54",
+                "(b) 0 1 7 14 21 28 35 42",
+                "(c) 0 1 2 3 4 5 6 7",
+                "(d) 0 7 14 21 28 35 42 49",
+                "(e) Error"
+            ],
+            "correctAnswers": [3],
+            "explanation": "The loop runs for i=0 to 7, multiplying each by 7: 0, 7, 14, 21, 28, 35, 42, 49."
+        },
+        {
+            "question": "Which attribute(s) can be used to extend the lifetime of a cookie ?",
+            "options": [
+                "(a) Life",
+                "(b) Lifetime",
+                "(c) Lifespan",
+                "(d) Duration",
+                "(e) MaxAge"
+            ],
+            "correctAnswers": [4],
+            "explanation": "The 'Max-Age' (or 'Expires') attribute specifies the lifetime of the cookie."
+        },
+        {
+            "question": "Select the most appropriate scenarios where authentication should be applied,",
+            "options": [
+                "(a) I only",
+                "(b) I and II only",
+                "(c) I and III only",
+                "(d) II and III only",
+                "(e) I, II and III only"
+            ],
+            "correctAnswers": [4],
+            "explanation": "Authentication is needed for accessing third-party resources, changing privilege levels, and accessing secured/cryptographic storage."
+        },
+        {
+            "question": "Select the most viable approaches to secure a web server.",
+            "options": [
+                "(a) I only",
+                "(b) I and II only",
+                "(c) I and III only",
+                "(d) II and III only",
+                "(e) I, II and III only"
+            ],
+            "correctAnswers": [4],
+            "explanation": "Firewalls, OS hardening, and removing unnecessary services are standard server security best practices."
+        }
+    ],
+    "2022": [
+        {
+            "question": "What would be the output of the following PHP script when executed ?\n\n<?php\necho strlen(\"UCSC BIT!\");\n?>",
+            "options": [
+                "(a) UCSC BIT!",
+                "(b) \"UCSC BIT!\"",
+                "(c) 8",
+                "(d) 9",
+                "(e) UCSC BIT! 8"
+            ],
+            "correctAnswers": [3],
+            "explanation": "The string 'UCSC BIT!' has 9 characters (U, C, S, C, space, B, I, T, !)."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed ?\n\n<?php\n$x = 6;\n$y = 25.9;\n$z = \"BIT\";\necho $x,$y,$z;\necho \"<br>\";\n?>",
+            "options": [
+                "(a) 625.9BIT",
+                "(b) 625.9 BIT",
+                "(c) 6 25.9 BIT",
+                "(d) 6 25.9BIT",
+                "(e) Error"
+            ],
+            "correctAnswers": [0],
+            "explanation": "Echo with commas outputs the values one after another without any added spaces."
+        },
+        {
+            "question": "What is git?",
+            "options": [
+                "(a) Centralized Version Control System",
+                "(b) Decentralized Version Control System",
+                "(c) Hybrid Version Control System",
+                "(d) Localized Version Control System",
+                "(e) Distributed Version Control System"
+            ],
+            "correctAnswers": [4],
+            "explanation": "Git is a free and open source distributed version control system."
+        },
+        {
+            "question": "Which git command can be used to switch between git branches ?",
+            "options": [
+                "(a) switch",
+                "(b) checkout",
+                "(c) clone",
+                "(d) pull",
+                "(e) push"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The 'git checkout' command is used to switch between branches in a repository."
+        },
+        {
+            "question": "Which of the following functions that can be used to add an element to an array in PHP ?",
+            "options": [
+                "(a) add()",
+                "(b) array_append()",
+                "(c) get()",
+                "(d) post()",
+                "(e) array_push()"
+            ],
+            "correctAnswers": [4],
+            "explanation": "array_push() treats the array as a stack, and pushes the passed variables onto the end of the array."
+        },
+        {
+            "question": "Which of the following functions that can be used to end a session in a PHP web application?",
+            "options": [
+                "(a) end()",
+                "(b) destroy()",
+                "(c) shutdown()",
+                "(d) session_end()",
+                "(e) session_destroy()"
+            ],
+            "correctAnswers": [4],
+            "explanation": "session_destroy() destroys all of the data associated with the current session."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed?\n\n<?php\n$y = 20 + 5 / * + 10 * / ;\necho $y;\n?>",
+            "options": [
+                "(a) 35",
+                "(b) 25",
+                "(c) 10",
+                "(d) 30",
+                "(e) Error"
+            ],
+            "old_question_cleaned": "Assuming the code was meant to be $y = 20 + 5 + 10 with comments in between.",
+            "correctAnswers": [0],
+            "explanation": "If the comments /* ... */ are ignored, the result of 20+5+10 is 35."
+        },
+        {
+            "question": "Which symbol can be used to denote a comment in PHP ? Note that comments can be single line or multi line.\n\nI. //\nII. #\nIII. %\nIV. *\nV. /* your code */",
+            "options": [
+                "(a) I only",
+                "(b) II only",
+                "(c) III only",
+                "(d) I and II only",
+                "(e) I, II and V only"
+            ],
+            "correctAnswers": [4],
+            "explanation": "PHP supports C, C++ and Unix shell-style comments. //, #, and /* */ are all valid."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed?\n\n<?php\n$fruit = array(\"apple\",\"orange\",\"grapes\");\necho $fruit[1] . \", \" . $fruit[2];\n?>",
+            "options": [
+                "(a) orange, grapes",
+                "(b) orange,apple",
+                "(c) apple orange",
+                "(d) apple.",
+                "(e) Error"
+            ],
+            "correctAnswers": [0],
+            "explanation": "Arrays in PHP are 0-indexed. $fruit[1] is 'orange' and $fruit[2] is 'grapes'."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed ?\n\n<?php\n$x = \"BIT\";\n$y = \"UCSC\";\necho $x . \", \" . $y;\n?>",
+            "options": [
+                "(a) BITUCSC!",
+                "(b) BIT,UCSC!",
+                "(c) BIT , UCSC!",
+                "(d) BIT.,UCSC!",
+                "(e) Error"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The dot (.) is the concatenation operator in PHP. Result: 'BIT, UCSC'."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed?\n\n<?php\n$x = 20;\n$y = 3;\nif ($x == 20 or $y == 5) {\n  echo \"Good job!\";\n} else {\n  echo \"Try again!\";\n}\n?>",
+            "options": [
+                "(a) Try again!",
+                "(b) Good job!",
+                "(c) Try again! Good job!",
+                "(d) Good job! Try again!",
+                "(e) Error"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The 'or' operator returns true if either condition is true. Since $x == 20 is true, it prints 'Good job!'."
+        },
+        {
+            "question": "Which of the following statements can be used to delete an entire MySQL database in PHP?",
+            "options": [
+                "(a) mysql_drop_db()",
+                "(b) mysql_drop_dbase()",
+                "(c) mysql_entiredb()",
+                "(d) mysql_drop_database()",
+                "(e) mysql_drop_entiredatabase()"
+            ],
+            "correctAnswers": [0],
+            "explanation": "In the old mysql extension, mysql_drop_db() was used to drop a database."
+        },
+        {
+            "question": "Which of the following is/are TRUE regarding the strcmp() function in PHP ?\n\nI. The strcmp() function is used to compare a string excluding the case.\nII. The strcmp() function is used to compare a string including the case.\nIII. The strcmp() function is used to compare a string which are only upper and lowercase.\nIV. The strcmp() function is used to compare strings that does not contain symbols.",
+            "options": [
+                "(a) I only",
+                "(b) II only",
+                "(c) I and IV only",
+                "(d) II and IV only",
+                "(e) III and IV only"
+            ],
+            "correctAnswers": [1],
+            "explanation": "strcmp() is a case-sensitive string comparison function."
+        },
+        {
+            "question": "Which of the following statements is true regarding JavaScript ?",
+            "options": [
+                "(a) JavaScript is ideal for run queries faster.",
+                "(b) JavaScript make computation in HTML less complex.",
+                "(c) JavaScript increases download time for clients.",
+                "(d) JavaScript Increases responsiveness of webpages.",
+                "(e) JavaScript minimizes storage requirement on the server side."
+            ],
+            "correctAnswers": [3],
+            "explanation": "JavaScript runs on the client side, allowing for immediate feedback and interaction without server round-trips, thus increasing responsiveness."
+        },
+        {
+            "question": "Arrange the steps of retrieving data from a database in the correct order.\n\nI. Connect to MySQL server\nII. Execute SQL query\nIII. Retrieve data from database via query\nIV. Select the corresponding database\nV. Close connection with server",
+            "options": [
+                "(a) I, II, IV, III, V",
+                "(b) I, II, III, D, V",
+                "(c) I, II, IV, V, III",
+                "(d) I, IV, III, II, V",
+                "(e) I, IV, II, III, V"
+            ],
+            "correctAnswers": [4],
+            "explanation": "The standard sequence is: Connect -> Select DB -> Execute Query -> Fetch Data -> Close Connection."
+        },
+        {
+            "question": "In JavaScript, i++ means",
+            "options": [
+                "(a) Adding two numbers",
+                "(b) Concatenating string variable with + symbol",
+                "(c) Concatenating + symbol with i",
+                "(d) Incrementing i by 1",
+                "(e) Part of a loop statement"
+            ],
+            "correctAnswers": [3],
+            "explanation": "i++ is the post-increment operator, which adds 1 to the variable i."
+        },
+        {
+            "question": "When would the POST function is more appropriate than GET function ?",
+            "options": [
+                "(a) When security level of code needs to be high",
+                "(b) When you need a quick response",
+                "(c) When a cache file exists",
+                "(d) When a large amount data needs to transfer to a server",
+                "(e) When server has complicated data objects to read"
+            ],
+            "correctAnswers": [3],
+            "explanation": "POST is preferred for large amounts of data as GET has URL length limitations."
+        },
+        {
+            "question": "DOM stands for",
+            "options": [
+                "(a) Data Object Model",
+                "(b) Database Open Model",
+                "(c) Data Object Method",
+                "(d) Document Object Markup",
+                "(e) Document Object Model"
+            ],
+            "correctAnswers": [4],
+            "explanation": "DOM stands for Document Object Model, a programming interface for web documents."
+        },
+        {
+            "question": "Consider the following scenario and select the correct authentication method used.\n\n\"Authenticating an ATM transaction using the ATM card and the pin\".",
+            "options": [
+                "(a) Single factor authentication",
+                "(b) Two factor authentication",
+                "(c) Three factor authentication",
+                "(d) Four factor authentication",
+                "(e) Five factor authentication"
+            ],
+            "correctAnswers": [1],
+            "explanation": "It uses two factors: something you have (ATM card) and something you know (PIN)."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed ?\n\n<?php\n$x = 10;\n$y = 20;\n$txt = \"welcome to UCSC\";\necho \"Hello! \" . $txt . \"<br>\";\necho $y - $x;\n?>",
+            "options": [
+                "(a) Hello! welcome to UCSC\n10",
+                "(b) Hello! welcome to UCSC 10",
+                "(c) Hello! welcome to UCSC\n20 - 10",
+                "(d) Hello! welcome to UCSC\n10",
+                "(e) Error"
+            ],
+            "correctAnswers": [0],
+            "explanation": "The script echoes the greeting and string, followed by a line break (<br>), then the result of 20 - 10, which is 10."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed?\n\n<?php\n$x = 5;\nfunction func1() {\n  $x = 10;\n  echo \"Value of x is: $x</p>\";\n}\nfunc1();\necho \"Value of x is: $x</p>\";\n?>",
+            "options": [
+                "(a) Value of x is: 5\nValue of x is: 5",
+                "(b) Value of x is: 10\nValue of x is: 5",
+                "(c) Value of x is: 10\nValue of x is: 10",
+                "(d) Value of x is: 10 5",
+                "(e) Value of x is: 5 10"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The $x inside the function is local. The $x outside is global and unaffected by the function's local variable."
+        },
+        {
+            "question": "Select statements that correctly describe properties of AJAX\n\nI. XMLHttpRequest object is used to exchange data with the server.\nII. AJAX stands for Asynchronous Java And XML.\nIII. AJAX is not a programming language.\nIV. Key object in AJAX is the XMLHttpRequest object.",
+            "options": [
+                "(a) I and II only",
+                "(b) I, II and III only",
+                "(c) I, III and IV only",
+                "(d) I, II and IV only",
+                "(e) II, III and IV only"
+            ],
+            "correctAnswers": [2],
+            "explanation": "AJAX stands for Asynchronous JavaScript And XML (not Java). I, III, and IV are correct."
+        },
+        {
+            "question": "What would be the output of the following PHP script when executed?\n\n<?php\nfunction a()\n{\n  echo \" a is executed\";\n}\nfunction b()\n{\n  a();\n  echo \" b is executed\";\n  a();\n}\nb();\n?>",
+            "options": [
+                "(a) a is executed",
+                "(b) b is executed",
+                "(c) a is executed b is executed",
+                "(d) a is executed b is executed a is executed",
+                "(e) a is executed b is executed b is executed"
+            ],
+            "correctAnswers": [3],
+            "explanation": "b() calls a(), then echoes its own message, then calls a() again."
+        },
+        {
+            "question": "Consider the following code segment,\n\nfunction func(num) {\n  return num % 1 == 0\n}\n\nWhat is the functionality of the above code ?",
+            "options": [
+                "(a) Check if num is even",
+                "(b) Check if num is odd",
+                "(c) Convert num to a percentage",
+                "(d) Check if num has imaginary part",
+                "(e) Check if num is integer or decimal"
+            ],
+            "correctAnswers": [4],
+            "explanation": "num % 1 == 0 is true if the number is an integer, and false if it has a decimal part."
+        },
+        {
+            "question": "Select attack(s) in a web application that happen against a password.\n\nI. Dictionary attack\nII. Brute-force attack\nIII. Rubber-hose attack\nIV. Denial-of-service attack\nV. Precomputed dictionary attack",
+            "options": [
+                "(a) I, II, IV",
+                "(b) I, II,V",
+                "(c) I, II, III, V",
+                "(d) I, II, IV, V",
+                "(e) I, II, III, IV"
+            ],
+            "correctAnswers": [1],
+            "explanation": "Dictionary, Brute-force, and Precomputed dictionary (Rainbow table) attacks are common against passwords. Rubber-hose is a humorous term for physical coercion."
+        }
+    ]
 }
