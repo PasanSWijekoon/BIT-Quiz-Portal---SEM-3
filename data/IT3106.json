@@ -1,0 +1,56 @@
+{
+    "2024": [
+        {
+            "question": "Which term from (a) to (e) is the most appropriate to fill the blank in the following statement?
+
+__________ involves restricting direct access to some of an object's components, which is a means of preventing unintended interference and ensuring controlled access.",
+            "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction", "Specialization"],
+            "correctAnswers": [1],
+            "explanation": "Encapsulation is the core OO principle that bundles data and methods, restricting external access to the internal state."
+        },
+        {
+            "question": "In a zoo management system, there is a parent class called Animal with a method speak(). Different subclasses like Dog, Cat, and Parrot override the speak() method to provide specific implementations (e.g., Dog says 'Bark', Cat says 'Meow').
+
+This is an example of:",
+            "options": ["Polymorphism", "Inheritance", "Encapsulation", "Generalization", "Abstraction"],
+            "correctAnswers": [0],
+            "explanation": "Polymorphism (specifically subtype polymorphism) allows objects of different classes to be treated as objects of a common superclass, with the specific implementation resolved at runtime."
+        },
+        {
+            "question": "Consider the following examples:
+(i) 'Developer is an Employee'
+(ii) 'Fruit is a Banana'
+(iii) 'Car has an Engine'
+
+Which of the above examples represents the Generalization and specialization relationship?",
+            "options": ["Only (i)", "Only (ii)", "Only (iii)", "Only (i) and (ii)", "All (i), (ii), and (iii)"],
+            "correctAnswers": [3],
+            "explanation": "(i) and (ii) are 'is-a' relationships (Generalization/Specialization). (iii) is a 'has-a' relationship (Composition/Aggregation)."
+        },
+        {
+            "question": "Consider the following statements:
+(i) Compile time polymorphism is typically achieved through method overloading or operator overloading.
+(ii) Runtime polymorphism is achieved through method overriding in inheritance hierarchies.
+(iii) A Shape class with a draw() method implemented differently by Circle and Square is an example of polymorphism.
+
+Which of the above statements related to Polymorphism is/are true?",
+            "options": ["Only (i)", "Only (i) and (ii)", "Only (i) and (iii)", "Only (ii) and (iii)", "All (i), (ii), and (iii)"],
+            "correctAnswers": [4],
+            "explanation": "All three statements accurately describe types and examples of polymorphism in Object-Oriented systems."
+        },
+        {
+            "question": "Consider the following statements:
+(i) The Unified Process is a linear, step-by-step approach to software development.
+(ii) The Unified Process is an iterative and incremental software development methodology.
+(iii) The Unified Process strictly follows the waterfall model.
+
+Which of the above statement(s) accurately describe(s) the Unified Process?",
+            "options": ["Only (i)", "Only (ii)", "Only (iii)", "Only (i) and (ii)", "Only (i) and (iii)"],
+            "correctAnswers": [1],
+            "explanation": "The Unified Process (UP) is fundamentally iterative and incremental, unlike the linear waterfall model."
+        }
+    ],
+    "2023": [],
+    "2022": [],
+    "2021": []
+}

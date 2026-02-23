@@ -1,0 +1,13 @@
+# Subject Paper Folders (PDFs)
+EN3106 - Communication Skills II/
+IT3106 - Object Oriented Analysis & Design/
+IT3206 - Data Structures and Algorithms/
+IT3306 - Data Management Systems/
+IT3406 - Web Application Development II/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AI Prompt Files
+gemini.md

@@ -1,0 +1,7 @@
+[
+    { "code": "IT3106", "name": "Object Oriented Analysis & Design" },
+    { "code": "IT3206", "name": "Data Structures and Algorithms" },
+    { "code": "IT3306", "name": "Data Management Systems" },
+    { "code": "IT3406", "name": "Web Application Development II" },
+    { "code": "EN3106", "name": "Communication Skills II" }
+]
