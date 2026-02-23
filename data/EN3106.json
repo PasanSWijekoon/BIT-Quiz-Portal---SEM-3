@@ -2,17 +2,1091 @@
     "2024": [
         {
             "question": "Which of the following is/are (a) component/s of effective verbal communication?",
-            "options": ["Active listening", "Filler words", "Computer jargon", "Interruption", "Complex vocabulary"],
+            "options": [
+                "(a). Active listening",
+                "(b). Filler words",
+                "(c). Computer jargon",
+                "(d). Interruption",
+                "(e). Complex vocabulary"
+            ],
             "correctAnswers": [0],
-            "explanation": "Active listening is a critical component of effective communication, ensuring the listener understands the message fully."
+            "explanation": "Active listening is essential for effective verbal communication as it ensures the receiver fully understands the message."
         },
         {
-            "question": "Which of the following is NOT a categorization(s) of plagiarism?",
-            "options": ["Idea plagiarism", "Code plagiarism", "Improper use of quotation marks", "Exam plagiarism", "Misinformation of references"],
+            "question": "Consider the following statements.\n\nI. Personality is determined solely by genetic factors, while values are learned through experience.\nII. Strong interpersonal skills include the ability to work effectively in teams and to build positive relationships with others.\nIII. Professionalism and ethical behavior help to ensure compliance with industry standards by prioritizing personal interests.\n\nWhich of the above statement(s) is/are correct regarding different factors related to personal development?",
+            "options": [
+                "(a). I only",
+                "(b). II only",
+                "(c). III only",
+                "(d). II and III only",
+                "(e). All I, II and III"
+            ],
+            "correctAnswers": [1],
+            "explanation": "Statement II is correct. Statement I is false because personality is shaped by both genetics and environment. Statement III is false because professionalism prioritizes ethics and standards, not personal interests."
+        },
+        {
+            "question": "Consider the following statements.\n\nI. Skimming involves reading widely for general knowledge and acquiring broad insights from a variety of sources.\nII. Scanning involves searching for specific information or details within the text.\nIII. Intensive reading is a focused, thorough reading for deep comprehension and understanding of key concepts.\n\nWhich of the above statements is/are correct regarding different techniques in reading?",
+            "options": [
+                "(a). I only",
+                "(b). II only",
+                "(c). I and II only",
+                "(d). II and III only",
+                "(e). All I, II and III"
+            ],
+            "correctAnswers": [3],
+            "explanation": "Scanning (II) and Intensive reading (III) are correctly described. Skimming (I) is about quickly looking through a text for the main idea, not reading widely from many sources (which is extensive reading)."
+        },
+        {
+            "question": "Which of the following is/are not a categorization(s) of plagiarism?",
+            "options": [
+                "(a). Idea plagiarism",
+                "(b). Code plagiarism",
+                "(c). Improper use of quotation marks",
+                "(d). Exam plagiarism",
+                "(e). Misinformation of references"
+            ],
             "correctAnswers": [2],
-            "explanation": "While improper use of quotation marks can lead to plagiarism, it is often considered a citation error rather than a standalone category of plagiarism like 'Idea' or 'Code' plagiarism."
+            "explanation": "Improper use of quotation marks is often a technical citation error, whereas the others are recognized categories of plagiarism."
+        },
+        {
+            "question": "Identify the correct statement(s) that best describes the difference between Primary and Secondary sources of reading.",
+            "options": [
+                "(a). Primary resources are first-hand accounts, while secondary resources are original raw materials.",
+                "(b). Primary resources consist of firsthand, original documents or data, while secondary resources analyze, interpret, and summarize these sources.",
+                "(c). Primary resources include books and articles, whereas secondary resources consist of articles created at the time of the study.",
+                "(d). Primary resources provide analysis, while secondary resources present factual information.",
+                "(e). Primary resources provide the raw survey data, while secondary resources are the research articles that summarize the data from the survey."
+            ],
+            "correctAnswers": [1, 4],
+            "explanation": "Primary sources are original data/documents (b, e). Secondary sources analyze or summarize them (b, e)."
+        },
+        {
+            "question": "The Intellectual Property (IP) of a particular work could be owned by:",
+            "options": [
+                "(a). the author or artist",
+                "(b). employer of the employee who created the work",
+                "(c). the employee who created the work",
+                "(d). entity to which the IP has been sold",
+                "(e). customer for whom the work was done"
+            ],
+            "correctAnswers": [0, 1, 3, 4],
+            "explanation": "IP can be owned by the creator, their employer (work-for-hire), an entity that purchased it, or a client depending on the contract."
+        },
+        {
+            "question": "What is the category a \"Biosketch\" is listed under the Taxonomy of Technical Writing?",
+            "options": [
+                "(a). Technical Reporting",
+                "(b). Business Communications",
+                "(c). Scientific Writing",
+                "(d). Theoretical Orientation",
+                "(e). Pedagogical Orientation"
+            ],
+            "correctAnswers": [1],
+            "explanation": "A biosketch is typically classified under business communications in technical writing taxonomies."
+        },
+        {
+            "question": "Which of the following LaTeX environments support label and caption commands?",
+            "options": [
+                "(a). figure",
+                "(b). tabular",
+                "(c). table",
+                "(d). enumerate",
+                "(e). itemize"
+            ],
+            "correctAnswers": [0, 2],
+            "explanation": "The 'figure' and 'table' environments are float environments that support captions and labels."
+        },
+        {
+            "question": "What are the advantages of single blind peer reviewing?",
+            "options": [
+                "(a). Knowing the author would allow to understand the background of work",
+                "(b). The anonymity allows reviewer to be honest without any influence from the authors",
+                "(c). Since the author is known to the reviewer, the feedback or comments could be biased",
+                "(d). There could be potential discrimination that are not based on the technical criteria such as nationality, gender, race, etc.",
+                "(e). Review is fair without much biases"
+            ],
+            "correctAnswers": [0, 1],
+            "explanation": "Single blind review lets the reviewer see the author (a) while staying anonymous themselves to ensure honesty (b). c and d are disadvantages."
+        },
+        {
+            "question": "Select the most suitable audience for the following sentence?\n\nPrivacy is crucial for building trust, protecting customer data, and ensuring compliance with regulatory standards.",
+            "options": [
+                "(a). Experts",
+                "(b). Nonspecialists",
+                "(c). Technicians",
+                "(d). Executives",
+                "(e). Consultants"
+            ],
+            "correctAnswers": [1, 3],
+            "explanation": "This sentence uses general language suitable for nonspecialists or executives interested in business/regulatory impact."
+        },
+        {
+            "question": "Which aspect(s) from the given list describes \"Conciseness\" needed in technical writing?",
+            "options": [
+                "(a). Keep it simple",
+                "(b). Measurable",
+                "(c). To the point",
+                "(d). Exact",
+                "(e). Accurate"
+            ],
+            "correctAnswers": [0, 2],
+            "explanation": "Conciseness involves being simple and getting straight to the point without unnecessary words."
+        },
+        {
+            "question": "Select the word(s) that can be removed to make the following sentence concise?\n\nOur main role is to raise money by way of donations in order to fund the works of these charities.",
+            "options": [
+                "(a). by way of donations",
+                "(b). way of",
+                "(c). in order",
+                "(d). the works of",
+                "(e). these"
+            ],
+            "correctAnswers": [1, 2, 3],
+            "explanation": "'way of' can be replaced by 'from'. 'in order' is redundant before 'to'. 'the works of' is wordy."
+        },
+        {
+            "question": "How many levels of sections LaTeX support by default?",
+            "options": [
+                "(a). 1",
+                "(b). 2",
+                "(c). 3",
+                "(d). 4",
+                "(e). 5"
+            ],
+            "correctAnswers": [4],
+            "explanation": "LaTeX typically supports 5 levels: section, subsection, subsubsection, paragraph, and subparagraph."
+        },
+        {
+            "question": "Select the correct statements on Concept Maps.",
+            "options": [
+                "(a). A Concept Map is a hierarchical representation of ideas",
+                "(b). Concept Map shows relationship between each nodes",
+                "(c). Concept Map can help to identify gaps in coverage",
+                "(d). Not having a central concept is the main drawback of a Concept Map",
+                "(e). A Concept Map is a full mesh representation of ideas"
+            ],
+            "correctAnswers": [0, 1, 2],
+            "explanation": "Concept maps are hierarchical, show relationships, and help identify knowledge gaps. They usually HAVE a central concept."
+        },
+        {
+            "question": "Which of the following LaTeX commands can be used to format bold text?",
+            "options": [
+                "(a). {\\bf }",
+                "(b). \\textit{}",
+                "(c). \\textbf{}",
+                "(d). \\texttt{}",
+                "(e). \\textbold{}"
+            ],
+            "correctAnswers": [0, 2],
+            "explanation": "\\textbf{} is the standard command, while {\\bf } is the older TeX style bold command."
+        },
+        {
+            "question": "Which of the following guideline(s) should be followed when using figures in technical writing?",
+            "options": [
+                "(a). Use figures without captions to keep the document simple.",
+                "(b). Place figures randomly in the text, without referring to them.",
+                "(c). Ensure all figures are labeled with descriptive captions and referenced in the text.",
+                "(d). Use decorative visuals to make the document visually appealing.",
+                "(e). Ensure that figures are high quality, relevant to the content, and used with permission if sourced externally."
+            ],
+            "correctAnswers": [2, 4],
+            "explanation": "Figures must always be captioned, referenced, relevant, and high quality."
+        },
+        {
+            "question": "Which of the following statement(s) is/are correct regarding online collaborative tools?",
+            "options": [
+                "(a). Online collaborative tools are primarily designed for in-person meetings rather than remote work.",
+                "(b). Tools like GSuite and Evernote are used to simplify the process of maintaining the documents.",
+                "(c). Online collaborative tools eliminate the need for communication within a team.",
+                "(d). Google Docs and Microsoft Teams are examples of tools that do not support real-time collaboration.",
+                "(e). Online collaborative tools are ineffective for teams working across different time zones."
+            ],
+            "correctAnswers": [1],
+            "explanation": "GSuite (Google Workspace) and similar tools are designed for efficient document maintenance and collaboration."
+        },
+        {
+            "question": "Match the descriptions in Column A with the most suitable graphs in Column B to represent the data effectively.\n(I) Ideal for illustrating the proportion of categories within a whole.\n(II) Useful for illustrating relationships between two continuous variables.\n(III) Best used for comparing categorical data across multiple groups.\n(IV) Suitable for displaying trends or changes over time.",
+            "options": [
+                "(a). (I)-(B), (II)-(D), (III)-(C), (IV)-(A)",
+                "(b). (I)-(B), (II)-(A), (III)-(D), (IV)-(C)",
+                "(c). (I)-(D), (II)-(A), (III)-(C), (IV)-(B)",
+                "(d). (I)-(B), (II)-(D), (III)-(A), (IV)-(C)",
+                "(e). (I)-(C), (II)-(D), (III)-(A), (IV)-(B)"
+            ],
+            "correctAnswers": [3],
+            "explanation": "I-Pie Chart(B), II-Scatter Plot(D), III-Bar Graph(A), IV-Line Graph(C)."
+        },
+        {
+            "question": "Which of the following technique(s) is/are most effective in presenting clean and uncluttered graphs for clear communication?",
+            "options": [
+                "(a). Including as many data points and labels as possible to provide full detail.",
+                "(b). Using minimal color and ensuring that only relevant data is displayed.",
+                "(c). Overloading the graph with various chart types and styles.",
+                "(d). Using complex grids and excessive background images.",
+                "(e). Simplifying the graph by removing unnecessary axes or legend elements."
+            ],
+            "correctAnswers": [1, 4],
+            "explanation": "Clarity is achieved through simplicity, minimal use of color, and removing non-essential elements (chartjunk)."
+        },
+        {
+            "question": "Which of the following statements best highlights the difference between a group and a team?",
+            "options": [
+                "(a). A group always works collaboratively, while a team functions independently.",
+                "(b). A group consists of individuals with aligned goals, while a team includes people working on unrelated tasks.",
+                "(c). A group focuses on task completion, while a team emphasizes social interaction.",
+                "(d). Teams lack mutual understanding among members, unlike groups where strong interpersonal bonds exist.",
+                "(e). A team emphasizes synergy and collective responsibility, while a group focuses on individual contributions toward separate goals."
+            ],
+            "correctAnswers": [4],
+            "explanation": "The key difference is that a team has synergy and shared accountability, whereas a group is just a collection of individuals."
         }
     ],
-    "2023": [],
-    "2022": []
+    "2023": [
+        {
+            "question": "Which of the following characters is used as the starting symbol for a commented line in LaTeX source file?",
+            "options": [
+                "(a). %",
+                "(b). $",
+                "(c). #",
+                "(d). \\\\",
+                "(e). //"
+            ],
+            "correctAnswers": [0],
+            "explanation": "The percent sign (%) is used for single-line comments in LaTeX."
+        },
+        {
+            "question": "Which of the following is/are (an) example(s) of non-verbal communication skills?",
+            "options": [
+                "(a). Writing an email",
+                "(b). Making a presentation",
+                "(c). Sending an SMS",
+                "(d). Delivering a lecture",
+                "(e). Raising the eyebrows in a conversation"
+            ],
+            "correctAnswers": [4],
+            "explanation": "Raising eyebrows is a facial expression, which is a form of non-verbal communication."
+        },
+        {
+            "question": "What does the 'S' in SQ4R, stand for?",
+            "options": [
+                "(a). Skim Reading",
+                "(b). Synthesize",
+                "(c). Short Note",
+                "(d). Survey",
+                "(e). Summarize"
+            ],
+            "correctAnswers": [3],
+            "explanation": "SQ4R stands for Survey, Question, Read, Recite, Relate (or Record), and Review."
+        },
+        {
+            "question": "Identify the most appropriate chart type for Figure 1 from the options below. (Note: Figure 1 shows a series of floating vertical bars)",
+            "options": [
+                "(a). Vertical Clutter chart",
+                "(b). Spike chart",
+                "(c). Waterfall chart",
+                "(d). Area chart",
+                "(e). Stacked Vertical Bar chart"
+            ],
+            "correctAnswers": [2],
+            "explanation": "A waterfall chart shows how an initial value is affected by intermediate values, often appearing as floating bars."
+        },
+        {
+            "question": "Which of the following is/are considered behaviors of ineffective leadership?",
+            "options": [
+                "(a). Micro Management",
+                "(b). Trusting the followers",
+                "(c). Being proactive",
+                "(d). Make popular decisions",
+                "(e). Complaining"
+            ],
+            "correctAnswers": [0, 4],
+            "explanation": "Micromanagement and complaining are generally seen as negative or ineffective leadership traits."
+        },
+        {
+            "question": "Which of the following is NOT a common categorization of reading audience?",
+            "options": [
+                "(a). Experts",
+                "(b). Technicians",
+                "(c). Executives",
+                "(d). Consultants",
+                "(e). Nonspecialists"
+            ],
+            "correctAnswers": [3],
+            "explanation": "The four main audiences in technical writing are Experts, Technicians, Executives, and Nonspecialists."
+        },
+        {
+            "question": "Consider the following statements.\nI. We use interpersonal skills ONLY when we need to deal with certain circumstances in group communication.\nII. Problem-solving and decision making are examples of interpersonal skills.\nIII. Personality is about how you behave and how others see you, while values are about what you prefer and intend to do.\n\nWhich of the above statements is/are correct regarding interpersonal skills?",
+            "options": [
+                "(a). I only",
+                "(b). II only",
+                "(c). III only",
+                "(d). II and III only",
+                "(e). All I, II and III"
+            ],
+            "correctAnswers": [3],
+            "explanation": "Interpersonal skills are used constantly, not just in groups (I is false). II and III are correct definitions."
+        },
+        {
+            "question": "Which of the following resource(s) a plagiarism detection tool relies on detecting plagiarism?\nI. Content Repositories\nII. Modification Date and Time\nIII. Writing Style",
+            "options": [
+                "(a). I only",
+                "(b). I and II only",
+                "(c). I and III only",
+                "(d). III only",
+                "(e). All of the above"
+            ],
+            "correctAnswers": [2],
+            "explanation": "Tools compare text against repositories and analyze writing style (stylometry) to detect plagiarism."
+        },
+        {
+            "question": "Which of the following statements is/are correct regarding reading and comprehension?",
+            "options": [
+                "(a). A Conference Proceeding is a periodical publication with news, opinions, and reports about science, generally written for a non-expert audience.",
+                "(b). A magazine article that reviews a research study analyzing data gathered from a survey on literacy in rural school districts, is an example of a secondary reading resource.",
+                "(c). A mind map is a helpful tool for readers to comprehend and organize the information that they read, simplifying potential chaos, particularly for complex ideas or topics.",
+                "(d). Scanning is a reading method where one will glance over headings, subheadings, key-words, and the first and last sentences of paragraphs, to grasp the main idea.",
+                "(e). The reference list in a document includes cited published resources and additional materials useful for background or further reading, but are not referred to in the text."
+            ],
+            "correctAnswers": [1, 2],
+            "explanation": "Magazine reviews are secondary (b). Mind maps help organize complex info (c). 'd' describes skimming, not scanning. 'e' describes a bibliography, not just a reference list."
+        },
+        {
+            "question": "Consider the following statements.\nI. A heatmap displays data in a table using colored cells to represent their relative magnitudes.\nII. In a line graph, the lines typically represent the trends and variations over time.\nIII. In a scholarly article, 'Equations' are not classified as graphical elements.\n\nWhich of the above statements is/are correct regarding visual communication?",
+            "options": [
+                "(a). I only",
+                "(b). I and II only",
+                "(c). II and III only",
+                "(d). I and III only",
+                "(e). All I, II and III"
+            ],
+            "correctAnswers": [1],
+            "explanation": "Heatmaps and line graphs are correctly described. Equations ARE considered graphical/visual elements in many contexts."
+        },
+        {
+            "question": "Which of the following is true regarding copyright infringement or plagiarism?",
+            "options": [
+                "(a). If you are reusing your own work even after you transfer the copyright to another entity is considered legal",
+                "(b). Using any figure or diagram unaltered from any source is considered legal",
+                "(c). Using redrawn and altered figures or diagrams from any source is considered legal",
+                "(d). Unintentionally violating any of the rules set is considered illegal",
+                "(e). Intentionally violating any of the rules set is considered legal"
+            ],
+            "correctAnswers": [3],
+            "explanation": "Ignorance of the law is not an excuse; unintentional violation is still illegal."
+        },
+        {
+            "question": "Precision can be achieved using measurable quantities and avoiding vague modifiers. Which of the following is considered as a word with precision?",
+            "options": [
+                "(a). Countless",
+                "(b). One",
+                "(c). Some",
+                "(d). Approximately",
+                "(e). Infinite"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The number 'One' is a precise, measurable quantity."
+        },
+        {
+            "question": "Identify the correct statement(s) regarding graphs and figures.",
+            "options": [
+                "(a). Clutter is a technique used to enhance the visual presentation of a graph, improving the clarity of the story that is communicated.",
+                "(b). Donut charts are always suitable for displaying a large number of categories or data points as it is easy to compare the size of the segments.",
+                "(c). In a scholarly publication the figure should appear after its first callout, and not before.",
+                "(d). In scholarly publications, only the figure number is mandatory, while having a figure caption is optional.",
+                "(e). Prior permission is required to reuse a figure if it is copyrighted."
+            ],
+            "correctAnswers": [2, 4],
+            "explanation": "Figures should follow their first mention (c) and copyright permission is essential (e)."
+        },
+        {
+            "question": "Selecting credible references is crucial for the quality of the document and work. Which of the following is NOT an accepted way of selecting a credible reference?",
+            "options": [
+                "(a). Peer reviewed",
+                "(b). Well known authors in the field",
+                "(c). Referred by the supervisor of the project",
+                "(d). Not listed in predatory journals",
+                "(e). Higher number of citations"
+            ],
+            "correctAnswers": [4],
+            "explanation": "While often correlated, a high citation count alone doesn't guarantee credibility (e.g., a paper could be cited for being wrong)."
+        },
+        {
+            "question": "Which of the following statements can be considered as an example of technical writing?\nI. Yesterday, a colleague came to my office to discuss about the memo.\nII. On 20th March 2022 at 2.00 P.M., our CEO gave his resignation.\nIII. Yesterday, when I was driving that stupid person crossed the road.",
+            "options": [
+                "(a). II only",
+                "(b). I and II only",
+                "(c). I only",
+                "(d). None of the above",
+                "(e). All of the above"
+            ],
+            "correctAnswers": [0],
+            "explanation": "Statement II is objective and factual, which are hallmarks of technical writing."
+        },
+        {
+            "question": "Which of the following is true with respect to open peer review?",
+            "options": [
+                "(a). Encourages accountability thus resulting in quality review process",
+                "(b). The level of anonymity allows both reviewer and author to be protected against any criticism",
+                "(c). Review is fair without much biases",
+                "(d). The anonymity allows reviewer to be honest without any influence from the authors",
+                "(e). Background of the author is not revealed thus judgment is purely based on the written document"
+            ],
+            "correctAnswers": [0],
+            "explanation": "Open review makes identities known, which can lead to higher accountability."
+        },
+        {
+            "question": "Which of the following best describes Clichés?",
+            "options": [
+                "(a). A lazy way to create an image",
+                "(b). A way of projecting human feelings, behaviors, or characteristics upon animals, inanimate objects, or systems",
+                "(c). A word that sounds similar to an intended word but is logically wrong",
+                "(d). A word that sound the same when pronounced but are spelled differently",
+                "(e). A way of detailing an abbreviation"
+            ],
+            "correctAnswers": [0],
+            "explanation": "Clichés are overused expressions that indicate a lack of original thought or 'lazy' writing."
+        },
+        {
+            "question": "Which of the following is NOT related to changeability of a document?",
+            "options": [
+                "(a). Manage versions of the document",
+                "(b). Stored in an electronic format according to the standards of the domain / organization",
+                "(c). Compatible with common document processing tools",
+                "(d). Compatible with common document configuration tools",
+                "(e). Compatible with all open source document editing tools"
+            ],
+            "correctAnswers": [4],
+            "explanation": "Being compatible with 'all' tools is not a standard requirement for changeability."
+        },
+        {
+            "question": "Which of the following syntax can be used to create a table to cater following list of requirements in a document using LaTeX?\n• Number of columns should be five (05)\n• Middle column should be center aligned\n• All the other columns except middle column should be left aligned\n• Width of the second column from left should be 3cm\n• All column separators should be visible",
+            "options": [
+                "(a). \\begin{table}{|l|p{3cm}|c|l|l|} ... \\end{table}",
+                "(b). \\begin{tabular}{|l|l|p{3cm}|c|l|l|} ... \\end{tabular}",
+                "(c). \\begin{tabular}{|l|p{3cm}|c|l|l|} ... \\end{tabular}",
+                "(d). \\begin{table}{|l|l|3pt}|c|l|l|} ... \\end{table}",
+                "(e). \\begin{table}{|l|p|p{3pt}|c|p|p|} ... \\end{table}"
+            ],
+            "correctAnswers": [2],
+            "explanation": "The requirement for 5 columns with specific alignment and a 3cm second column is met by |l|p{3cm}|c|l|l| inside a tabular environment."
+        },
+        {
+            "question": "Match the phrases listed in Column A, as (I), (II), (III), and (IV), with the most appropriate organizational culture listed in Column B, as A, B, C, and D.\n(I) Focuses on research and innovation, and encourages creativity.\n(II) The individuals are encouraged to outperform others and strive for personal success.\n(III) Emphasizes strict procedures, rules, and hierarchical structures to maintain stability and order.\n(IV) Emphasizes heavily on teamwork, cooperation, shared goals, and a sense of unity among employees.",
+            "options": [
+                "(a). (I)-(C), (II)-(D), (III)-(A), (IV)-(B)",
+                "(b). (I)-(B), (II)-(A), (III)-(D), (IV)-(C)",
+                "(c). (I)-(D), (II)-(A), (III)-(C), (IV)-(B)",
+                "(d). (I)-(B), (II)-(D), (III)-(A), (IV)-(C)",
+                "(e). (I)-(B), (II)-(D), (III)-(C), (IV)-(A)"
+            ],
+            "correctAnswers": [4],
+            "explanation": "I-Creative(B), II-Competitive(D), III-Controlled(C), IV-Collaborative(A)."
+        }
+    ],
+    "2022": [
+        {
+            "question": "Consider the following.\nI. Facial expressions\nII. An email\nIII. Eye gaze\n\nWhich of the above is/are considered non-verbal communication skills?",
+            "options": [
+                "(a). (I) Only.",
+                "(b). (II) Only.",
+                "(c). (I) and (II) Only.",
+                "(d). (II) and (III) Only.",
+                "(e). (I) and (III) Only."
+            ],
+            "correctAnswers": [4],
+            "explanation": "Facial expressions and eye gaze are non-verbal. Emails are written verbal communication."
+        },
+        {
+            "question": "Which of the below statements is/are correct regarding the personality traits in the OCEAN model?",
+            "options": [
+                "(a) Agreeableness is the degree to which a person is outgoing, talkative, and sociable.",
+                "(b) Openness is the degree to which a person is organized, systematic, punctual, and dependable.",
+                "(c) Neurotic people tend to have emotional adjustment problems and habitually experience stress and depression.",
+                "(d) Extraverts are always irritable and do not engage happily at work as they find it difficult to build friendly relationships with the people around them.",
+                "(e) Conscientiousness is a valuable trait for entrepreneurs."
+            ],
+            "correctAnswers": [2, 4],
+            "explanation": "Neuroticism (c) and Conscientiousness (e) are correctly described. 'a' describes Extraversion, and 'b' describes Conscientiousness."
+        },
+        {
+            "question": "Identify the correct statement(s).",
+            "options": [
+                "(a) The ACM Code of Ethics and Professional Conduct is designed to inspire and guide the ethical conduct of all computing professionals.",
+                "(b) A computing professional should accept all work without revealing competence.",
+                "(c) The code of conduct explains a person's relatively stable feelings, thoughts, and behavioral patterns.",
+                "(d) A professional leader should ensure that the public good is the central concern during all professional computing work.",
+                "(e) Understanding someone's personality gives clues about how that person is likely to act and feel in various situations."
+            ],
+            "correctAnswers": [0, 3, 4],
+            "explanation": "ACM ethics guide professionals (a), public good is central (d), and personality predicts behavior (e)."
+        },
+        {
+            "question": "Which of the following correctly lists the steps of the SQ4R method in the correct order?",
+            "options": [
+                "(a) Survey, Question, Read, Respond, Record, Review",
+                "(b) Survey, Question, Read, Record, Respond, Review",
+                "(c) Survey, Question, Respond, Read, Review, Record",
+                "(d) Survey, Question, Respond, Read, Record, Review",
+                "(e) Survey, Question, Review, Respond, Record, Read"
+            ],
+            "correctAnswers": [0],
+            "explanation": "The standard sequence is Survey, Question, Read, Respond (Recite), Record, Review."
+        },
+        {
+            "question": "Scientific writing can include,",
+            "options": [
+                "(a) experimental writing",
+                "(b) scholarly publications",
+                "(c) short novels",
+                "(d) survey reports",
+                "(e) documents associated with experiments"
+            ],
+            "correctAnswers": [0, 1, 3, 4],
+            "explanation": "Novels are fiction, not scientific writing."
+        },
+        {
+            "question": "Which of the following is/are incorrect about primary sources of reading?",
+            "options": [
+                "(a) A primary source interprets another source",
+                "(b) A primary source provides commentary on another source",
+                "(c) A primary source can be a magazine article discussing data collected in a survey",
+                "(d) A primary source includes raw data",
+                "(e) A primary source can be a review of a published article"
+            ],
+            "correctAnswers": [0, 1, 2, 4],
+            "explanation": "A primary source is original, raw material. Interpreting, commenting, and reviewing are characteristics of secondary sources."
+        },
+        {
+            "question": "Which of the following best describes Paraphrasing plagiarism?",
+            "options": [
+                "(a) Copying word to word textual information.",
+                "(b) Restating the same content in different words.",
+                "(c) Content translation and use without reference to original work.",
+                "(d) Presenting same work using different media: word-to-word etc.",
+                "(e) Using similar ideas which are not common knowledge."
+            ],
+            "correctAnswers": [1],
+            "explanation": "Paraphrasing is rewriting ideas in your own words, but it's still plagiarism if not cited."
+        },
+        {
+            "question": "Which of the following document is a technical communication document intended to assist people using a particular system?",
+            "options": [
+                "(a) Proposal",
+                "(b) Specification",
+                "(c) Manual",
+                "(d) Progress report",
+                "(e) Project plan"
+            ],
+            "correctAnswers": [2],
+            "explanation": "Manuals (User/Technical) are specifically designed to help people use systems."
+        },
+        {
+            "question": "Software licenses are important to:\nI. Protect the owner rights\nII. Protect the user rights\nIII. Protect the user benefits",
+            "options": [
+                "(a) (I) Only.",
+                "(b) (II) Only.",
+                "(c) (I) and (III) Only.",
+                "(d) (I) and (II) Only.",
+                "(e) All (I), (II) and (III)."
+            ],
+            "correctAnswers": [4],
+            "explanation": "Licenses define the legal framework that protects everyone involved."
+        },
+        {
+            "question": "Which of the following user(s) is/are technical writer(s)?\nI. Farmer\nII. Engineer\nIII. Teacher",
+            "options": [
+                "(a) (III) Only.",
+                "(b) (II) Only.",
+                "(c) (II) and (III) Only.",
+                "(d) (I) and (II) Only.",
+                "(e) All (I), (II) and (III)."
+            ],
+            "correctAnswers": [4],
+            "explanation": "Anyone who writes technical information for an audience is a technical writer, regardless of their primary profession."
+        },
+        {
+            "question": "Which of the following is/are considered as technical report(s)?\nI. Proposals\nII. Feasibility studies\nIII. Specifications",
+            "options": [
+                "(a) (III) Only.",
+                "(b) (II) Only.",
+                "(c) (II) and (III) Only.",
+                "(d) (I) and (II) Only.",
+                "(e) All (I), (II) and (III)."
+            ],
+            "correctAnswers": [4],
+            "explanation": "All listed are types of technical reports."
+        },
+        {
+            "question": "Which of the following reviewing method is generally accepted as the least biased in scientific publication reviewing?",
+            "options": [
+                "(a) Single blind",
+                "(b) Double blind",
+                "(c) Triple blind",
+                "(d) Open peer review",
+                "(e) Closed peer review"
+            ],
+            "correctAnswers": [1],
+            "explanation": "Double-blind review hides both the author's and reviewer's identities to minimize bias."
+        },
+        {
+            "question": "Which of the following statements are true with respect to the Internal and External balance of a technical document?",
+            "options": [
+                "(a) Uniform organization of the content within the document",
+                "(b) Consistency for the reader",
+                "(c) The document should not have more than three levels of sections, i.e. sections, subsections, sub subsections.",
+                "(d) Sections should have more content than subsections",
+                "(e) The subsection should have more content than the main sections"
+            ],
+            "correctAnswers": [0, 1],
+            "explanation": "Balance refers to consistent structure and organization (a, b). Content distribution (d, e) varies."
+        },
+        {
+            "question": "In technical writing, knowing your audience will allow you to decide the",
+            "options": [
+                "(a) writing tone.",
+                "(b) amount of details.",
+                "(c) structure.",
+                "(d) number of references.",
+                "(e) technical writing tool that should be used."
+            ],
+            "correctAnswers": [0, 1, 2],
+            "explanation": "Audience dictates how you speak (tone), what you say (detail), and how you organize it (structure)."
+        },
+        {
+            "question": "What are the LaTeX commands used in drawing a table?",
+            "options": [
+                "(a) \\begin{table}",
+                "(b) \\begin{row}",
+                "(c) \\begin{tabular}",
+                "(d) \\begin{column}",
+                "(e) \\hline"
+            ],
+            "correctAnswers": [0, 2, 4],
+            "explanation": "table (environment), tabular (actual table data), and \\hline (horizontal lines) are used."
+        },
+        {
+            "question": "Which of the following LaTeX command is used to begin a new section?",
+            "options": [
+                "(a) \\begin{section}",
+                "(b) \\begin{chapter}",
+                "(c) \\section{new section}",
+                "(d) \\sectionbreak",
+                "(e) \\pagebreak"
+            ],
+            "correctAnswers": [2],
+            "explanation": "\\section{title} is the command to create a new section."
+        },
+        {
+            "question": "Which of the following LaTeX command(s) can be used to create a list within a document?",
+            "options": [
+                "(a) \\begin{itemize}",
+                "(b) \\begin{list}",
+                "(c) \\begin{enumerate}",
+                "(d) \\begin{numbered}",
+                "(e) \\begin{bulleted}"
+            ],
+            "correctAnswers": [0, 2],
+            "explanation": "itemize (bullets) and enumerate (numbers) are the standard list environments."
+        },
+        {
+            "question": "Consider the following.\nI. Words\nII. Tables\nIII. Equations\n\nWhich of the above is/are used to model an idea in technical writing?",
+            "options": [
+                "(a) (I) Only.",
+                "(b) (II) Only.",
+                "(c) (I) and (II) Only.",
+                "(d) (I) and (III) Only.",
+                "(e) All (I), (II) and (III)."
+            ],
+            "correctAnswers": [4],
+            "explanation": "Technical ideas are modeled using text, tabular data, and mathematical expressions."
+        },
+        {
+            "question": "Which of the following graphs can be categorized as bar charts?",
+            "options": [
+                "(a) Stacked horizontal chart",
+                "(b) Bubble chart",
+                "(c) Clutter chart",
+                "(d) Waterfall chart",
+                "(e) Area chart"
+            ],
+            "correctAnswers": [0, 3],
+            "explanation": "Stacked charts and waterfall charts are variations of bar charts."
+        },
+        {
+            "question": "Identify the correct statement(s) regarding the line charts.",
+            "options": [
+                "(a) Line graphs are widely used to plot discrete data.",
+                "(b) Line charts always must have a zero baseline.",
+                "(c) The data plotted must be at regular intervals when graphing the time on the horizontal x-axis of a line graph.",
+                "(d) The slope graph is an example of a line graph.",
+                "(e) Very thick lines used in line charts are better as they clearly show the real marker positions."
+            ],
+            "correctAnswers": [2, 3],
+            "explanation": "Time series must be regular (c) and slope graphs are a type of line chart (d). Zero baseline is mandatory for bar charts, not necessarily line charts."
+        },
+        {
+            "question": "Which of the following statements is/are correct regarding the figures used in technical writing?",
+            "options": [
+                "(a) Each and every figure must have a caption and a number.",
+                "(b) The best practice in technical writing is to end a section or chapter after a figure caption.",
+                "(c) When reusing a figure from another source, one must either cite the source and/or obtain proper permissions.",
+                "(d) The intellectual property rights (copyright) of a figure is owned by the one who reuses the figure, and it is not the one who created the figure originally.",
+                "(e) Any reference in the text to the figure is called a \"callout.\""
+            ],
+            "correctAnswers": [0, 2, 4],
+            "explanation": "Captions/numbers are mandatory (a). Citations/permissions are required (c). Text references are callouts (e)."
+        },
+        {
+            "question": "Identify the following graph type. (Note: Shows a grid of squares with different colors/shades)",
+            "options": [
+                "(a) Pie Chart",
+                "(b) 3D Chart",
+                "(c) Area Chart",
+                "(d) Table Chart",
+                "(e) Horizontal-Vertical bar Chart"
+            ],
+            "old_question_cleaned": "Figure shows a Heat Map / Grid.",
+            "correctAnswers": [3],
+            "explanation": "The image likely refers to a heatmap, which can sometimes be called a 'table chart' or grid chart in simple terms."
+        },
+        {
+            "question": "Which of the given answers correctly categorizes the following attributes into 'Team' and 'Group'?\nA: Independent members | D: Collective product of work\nB: Individual product of work | E: Discuss-Decide-Do process\nC: Multiple leaders | F: Interdependent Members",
+            "options": [
+                "(a) A-Team, B-Group, C-Group, D-Team, E-Group, F-Group",
+                "(b) A-Team, B-Group, C-Team, D-Team, E-Group, F-Group",
+                "(c) A-Group, B-Group, C-Team, D-Team, E-Team, F-Team",
+                "(d) A-Group, B-Group, C- Group, D-Team, E-Group, F-Team",
+                "(e) A-Group, B-Team, C-Group, D-Group, E-Team, F-Team"
+            ],
+            "correctAnswers": [3],
+            "explanation": "Group: A(Independent), B(Individual product), C(Multiple leaders), E(Discuss-Decide-Do). Team: D(Collective product), F(Interdependent)."
+        },
+        {
+            "question": "Which of the following does not come under the category of project teams?",
+            "options": [
+                "(a) Cross-Functional Team",
+                "(b) Virtual Team",
+                "(c) Contract Team",
+                "(d) Operational Team",
+                "(e) Functional Team"
+            ],
+            "correctAnswers": [3],
+            "explanation": "Operational teams are for ongoing maintenance/ops, not specific projects."
+        },
+        {
+            "question": "Match the phrases listed in Column A with the most appropriate leadership level listed in Column B.\n(I) People follow because of what you have done for the organization\n(II) People follow because they have to\n(III) People follow because of what you have done for them\n(IV) People follow because they want to",
+            "options": [
+                "(a) (I)-(B), (II)-(D), (III)-(C), (IV)-(A)",
+                "(b) (I)-(B), (II)-(A), (III)-(D), (IV)-(C)",
+                "(c) (I)-(D), (II)-(A), (III)-(C), (IV)-(B)",
+                "(d) (I)-(B), (II)-(D), (III)-(A), (IV)-(C)",
+                "(e) (I)-(C), (II)-(D), (III)-(A), (IV)-(B)"
+            ],
+            "correctAnswers": [0],
+            "explanation": "I-Production(B), II-Position(D), III-People Development(A), IV-Permission(C). Result: I-B, II-D, III-A, IV-C."
+        }
+    ],
+    "2021": [
+        {
+            "question": "Complete the sentence below by choosing the correct option(s).\n\nNon-verbal cues in communication, ............................................",
+            "options": [
+                "(a) repeat the message the person is making verbally.",
+                "(b) add to or complement a verbal message.",
+                "(c) are the same from one culture to another.",
+                "(d) can sometimes damage the connection and trust in a relationship.",
+                "(e) are not a way to give feedback to the other person."
+            ],
+            "correctAnswers": [0, 1, 3],
+            "explanation": "Non-verbal cues can repeat, complement, or contradict (damaging trust) verbal messages."
+        },
+        {
+            "question": "The capability of understanding another person's experiences and emotions is known as,",
+            "options": [
+                "(a) Hedonism",
+                "(b) Empathy",
+                "(c) Code of Conduct",
+                "(d) Emotional Intelligence",
+                "(e) Active Listening"
+            ],
+            "correctAnswers": [1, 3],
+            "explanation": "Empathy is the specific capability, which is a key part of Emotional Intelligence."
+        },
+        {
+            "question": "Identify the correct statement(s) regarding personality.",
+            "options": [
+                "(a) Individuals having high self-monitoring capabilities tend to act the way they feel.",
+                "(b) Individuals with high neuroticism are eager to learn and engage in many developmental activities to improve their skills.",
+                "(c) Individuals with high self-esteem experience high levels of self-doubt and tend to question their self-worth.",
+                "(d) Individuals should be allowed to test their skills to understand what they are capable of, and it is a good way of increasing self-efficacy.",
+                "(e) Individuals demonstrating high extraversion sometimes cannot survive in jobs lacking social interaction."
+            ],
+            "correctAnswers": [3, 4],
+            "explanation": "Testing skills builds self-efficacy (d) and extraverts need social interaction (e)."
+        },
+        {
+            "question": "Which of the following statements is/are incorrect regarding secondary sources of reading?",
+            "options": [
+                "(a) A secondary source includes original content.",
+                "(b) Secondary sources can vary dependent upon the focus of the study.",
+                "(c) A Secondary source includes first-hand accounts.",
+                "(d) A Secondary source interprets another source.",
+                "(e) Secondary sources include raw data, documents or objects created at the time of the study."
+            ],
+            "correctAnswers": [0, 2, 4],
+            "explanation": "Original content, first-hand accounts, and raw data are characteristics of PRIMARY sources."
+        },
+        {
+            "question": "Which of the following is/are considered reading methods?",
+            "options": [
+                "(a) Speed reading",
+                "(b) Reflective reading",
+                "(c) SQ4R method",
+                "(d) Impulsive reading",
+                "(e) Browsing"
+            ],
+            "correctAnswers": [0, 1, 2, 4],
+            "explanation": "Impulsive reading is not a recognized academic reading method."
+        },
+        {
+            "question": "Match the definition listed in Column A with the appropriate terms listed in Column B.\n(I) An assessment of the practicality of a proposed project or system.\n(II) An initial document that includes the title of a project, start and end dates, etc.\n(III) A series of formal documents that define the execution and control stages.\n(IV) A technical communication document intended to assist people using a particular system.\n(V) A set of documented requirements to be satisfied by a material, design, product, or service.",
+            "options": [
+                "(a) (I)-(A), (II)-(E), (III)-(B), (IV)-(D), (V)-(F)",
+                "(b) (I)-(E), (II)-(A), (III)-(F), (IV)-(C), (V)-(B)",
+                "(c) (I)-(D), (II)-(A), (III)-(C), (IV)-(B), (V)-(E)",
+                "(d) (I)-(E), (II)-(A), (III)-(D), (IV)-(C), (V)-(F)",
+                "(e) (I)-(C), (II)-(D), (III)-(E), (IV)-(F), (V)-(A)"
+            ],
+            "correctAnswers": [1],
+            "explanation": "I-Feasibility(E), II-Proposal(A), III-Project Plan(F), IV-Manual(C), V-Specification(B)."
+        },
+        {
+            "question": "What is translated plagiarism?",
+            "options": [
+                "(a) Copying word to word textual information.",
+                "(b) Restating the same content in different words.",
+                "(c) Content translation and use without reference to original work.",
+                "(d) Presenting same work using different media: text, images etc.",
+                "(e) Using similar ideas which are not common knowledge."
+            ],
+            "correctAnswers": [2],
+            "explanation": "Translated plagiarism is taking content from one language and translating it to another without citation."
+        },
+        {
+            "question": "Which of the following licenses is the most restricted use of a particular work?",
+            "options": [
+                "(a) CC BY-NC-ND",
+                "(b) CC BY",
+                "(c) CC BY-SA",
+                "(d) Copyright",
+                "(e) CC BY-NC"
+            ],
+            "correctAnswers": [3],
+            "explanation": "Standard Copyright is 'All Rights Reserved', the most restrictive. Among Creative Commons, CC BY-NC-ND is the most restrictive."
+        },
+        {
+            "question": "Which of the following statement(s) is/are false with respect to technical writing?",
+            "options": [
+                "(a) Subjective and is based on emotional properties.",
+                "(b) Incorporates concise and rational statements or information.",
+                "(c) An error in technical writing can have serious consequences.",
+                "(d) Needs high precision.",
+                "(e) Contains actionable information."
+            ],
+            "correctAnswers": [0],
+            "explanation": "Technical writing is objective and factual, not subjective or emotional."
+        },
+        {
+            "question": "Which of the following technical writing activity(ies) is/are performed by a farmer?",
+            "options": [
+                "(a) Prescription for medicine",
+                "(b) Fertilizing schedule and prescription",
+                "(c) Training guide for interns",
+                "(d) Structural design of a multi-story building",
+                "(e) Curriculum preparation"
+            ],
+            "correctAnswers": [1, 2],
+            "explanation": "Farmers write fertilizing schedules and may create guides for workers/interns."
+        },
+        {
+            "question": "Which of the following is a/are method(s) of peer review in scientific writing?",
+            "options": [
+                "(a) Single blind",
+                "(b) Double blind",
+                "(c) Open peer review",
+                "(d) Closed peer review",
+                "(e) Disclosed peer review"
+            ],
+            "correctAnswers": [0, 1, 2],
+            "explanation": "Single-blind, double-blind, and open are standard peer review methods."
+        },
+        {
+            "question": "Which of the following statements is/are true with respect to conciseness in technical writing?",
+            "options": [
+                "(a) Conciseness is avoiding all details.",
+                "(b) Concise documents include subjects only in outline.",
+                "(c) Conciseness can be achieved by replacing multiple words with a single word.",
+                "(d) Concise documents contain both graphical representations and text.",
+                "(e) Concise documents contain only textual representations."
+            ],
+            "correctAnswers": [2, 3],
+            "explanation": "Conciseness is using one word where many were used (c) and using visuals to reduce text (d)."
+        },
+        {
+            "question": "Which of the following is an/are advantage(s) of double-blind reviewing?",
+            "options": [
+                "(a) The level of anonymity allows both reviewer and author to be protected against any criticism.",
+                "(b) Review is fair without much bias.",
+                "(c) Knowing the author would allow him to understand the background of work.",
+                "(d) Since references are not visible the reviewer has to be an expert of the domain.",
+                "(e) Encourages accountability thus resulting in quality review process."
+            ],
+            "correctAnswers": [0, 1],
+            "explanation": "Double-blind protects both parties (a) and reduces bias (b)."
+        },
+        {
+            "question": "Which of the following is/are not an outcome(s) of the brainstorming session of the writing process?",
+            "options": [
+                "(a) The initial draft of a proposal",
+                "(b) Ideas",
+                "(c) Sketches",
+                "(d) Pointers to resources",
+                "(e) Phrases to make you recall an event"
+            ],
+            "correctAnswers": [0],
+            "explanation": "An initial draft is a result of the drafting phase, not the brainstorming phase."
+        },
+        {
+            "question": "What is the correct number of rows and columns of the following LaTeX table, respectively?\n\\begin{tabular}{|l|l|l|l|l|l|}\n...",
+            "options": [
+                "(a) 5, 3",
+                "(b) 4, 4",
+                "(c) 4, 5",
+                "(d) 3, 4",
+                "(e) 4, 3"
+            ],
+            "correctAnswers": [2],
+            "explanation": "Based on the LaTeX code (4 rows of data and 5 columns specified in |l|l|l|l|l|)."
+        },
+        {
+            "question": "What is the correct method of passing the size of the paper into a LaTeX document?",
+            "options": [
+                "(a) \\begin{document}[a4paper]",
+                "(b) \\begin{article}[a4paper]",
+                "(c) \\documentclass[a4paper]{article}",
+                "(d) \\begin{document}[a4paper]",
+                "(e) \\documentclass{article}[a4paper]"
+            ],
+            "correctAnswers": [2],
+            "explanation": "Paper size is passed as an optional argument to the \\documentclass command."
+        },
+        {
+            "question": "Which of the following LaTeX command is used to create a title page of a document?",
+            "options": [
+                "(a) \\titlepage",
+                "(b) \\maketitle",
+                "(c) \\title",
+                "(d) \\pagetitle",
+                "(e) \\begin{title}"
+            ],
+            "correctAnswers": [1],
+            "explanation": "\\maketitle generates the title based on \\title, \\author, and \\date commands."
+        },
+        {
+            "question": "Suppose you were asked to compare the temperature variation in the central and western provinces in Sri Lanka monthly over one year. Identify the best chart(s) that can be used for the above purpose.",
+            "options": [
+                "(a) Pie",
+                "(b) Bar",
+                "(c) Heat map",
+                "(d) Column",
+                "(e) Area"
+            ],
+            "correctAnswers": [1, 3, 4],
+            "explanation": "Bar, Column, or Heat maps are excellent for comparing categories (provinces) over time (months)."
+        },
+        {
+            "question": "Identify the correct statement(s) regarding different data visualization techniques used in technical writing.",
+            "options": [
+                "(a) I and II only.",
+                "(b) I and III only.",
+                "(c) II and III only.",
+                "(d) III only.",
+                "(e) All of the above."
+            ],
+            "old_question_cleaned": "I. Waterfall chart shows cumulative effect. II. Bar chart doesn't always need zero baseline (Actually it does). III. Scatter plot shows composition (Actually it shows relationship).",
+            "correctAnswers": [0],
+            "explanation": "Waterfall charts show cumulative effects. Bar charts MUST have a zero baseline. Scatter plots show relationships, not composition."
+        },
+        {
+            "question": "Identify the correct statement(s) in placing figures in a technical document.",
+            "options": [
+                "(a) Every figure included in the document should have a caption and a consecutive number.",
+                "(b) The figure should appear before its first callout and not after.",
+                "(c) The caption formatting and alignment should be unique for all figures included in the document.",
+                "(d) Copyrighted figures and images can be used in a document without any issue.",
+                "(e) Section or a chapter should always be ended using a discussion and should not be ended soon after placing the figure caption."
+            ],
+            "correctAnswers": [0, 2, 4],
+            "explanation": "Captions/numbers are required (a). Captions should be consistent (c). Sections shouldn't end with a figure (e)."
+        },
+        {
+            "question": "Which of the following is/are considered as (a) best practice(s) in data visualization?",
+            "options": [
+                "(a) Adding 3D elements and excessive gridlines are a few techniques to declutter a chart.",
+                "(b) Data values should always be placed on top of the slices when using pie charts to increase readability.",
+                "(c) Smoothed or excessively thick lines should be avoided in a line chart as these may misrepresent the actual data since they obscure the accurate marker positions.",
+                "(d) One dataset cannot be represented using different charts and graphs. Hence identifying the correct chart is essential.",
+                "(e) Choose a suitable color palette based on the chart type, and this selection may vary from one chart to another."
+            ],
+            "correctAnswers": [1, 2, 4],
+            "explanation": "Labels on pie slices (b), avoiding thick lines (c), and choosing good color palettes (e) are best practices."
+        },
+        {
+            "question": "In writing technical documents, one should use .............\nI. simple text where appropriate to visualize data.\nII. fewer tables as it is difficult to interpret data in a tabular form.\nIII. as many figures, graphs and images as possible than text to convey the message clearly to the reader.",
+            "options": [
+                "(a) (I) Only.",
+                "(b) (II) Only.",
+                "(c) (III) Only.",
+                "(d) (I) and (III) Only.",
+                "(e) All (I), (II) and (III)."
+            ],
+            "correctAnswers": [0],
+            "explanation": "Use text where it's clearer than complex visuals (I). Tables are actually very effective (II is false). Don't use 'as many as possible' (III is false)."
+        },
+        {
+            "question": "Which of the following is a/are key attribute(s) of successful teamwork?",
+            "options": [
+                "(a) Interdependence",
+                "(b) Open communication",
+                "(c) Commitment to team success",
+                "(d) Independence of team members",
+                "(e) Appropriate team composition"
+            ],
+            "correctAnswers": [0, 1, 2, 4],
+            "explanation": "Interdependence, communication, commitment, and composition are keys to a team. Independence (d) is more related to a group."
+        },
+        {
+            "question": "Which of the following is/are considered as (a) stage(s) of team building?",
+            "options": [
+                "(a) Norming",
+                "(b) Perfecting",
+                "(c) Adjourning",
+                "(d) Storming",
+                "(e) Forming"
+            ],
+            "correctAnswers": [0, 2, 3, 4],
+            "explanation": "Tuckman's stages are Forming, Storming, Norming, Performing, and Adjourning."
+        },
+        {
+            "question": "Which of the following is/are not considered as (a) type(s) of organizational culture?",
+            "options": [
+                "(a) Creative",
+                "(b) Constructive",
+                "(c) Controlled",
+                "(d) Competitive",
+                "(e) Collaborative"
+            ],
+            "correctAnswers": [1],
+            "explanation": "The main types in this context are Creative, Controlled, Competitive, and Collaborative. 'Constructive' is not one of the four."
+        }
+    ]
 }

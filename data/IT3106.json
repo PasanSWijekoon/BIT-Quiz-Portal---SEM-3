@@ -1,56 +1,176 @@
 {
     "2024": [
         {
-            "question": "Which term from (a) to (e) is the most appropriate to fill the blank in the following statement?
-
-__________ involves restricting direct access to some of an object's components, which is a means of preventing unintended interference and ensuring controlled access.",
+            "question": "Which term from (a) to (e) is the most appropriate to fill the blank in the following statement?\n\n__________ involves restricting direct access to some of an object's components, which is a means of preventing unintended interference and ensuring controlled access.",
             "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction", "Specialization"],
             "correctAnswers": [1],
             "explanation": "Encapsulation is the core OO principle that bundles data and methods, restricting external access to the internal state."
         },
         {
-            "question": "In a zoo management system, there is a parent class called Animal with a method speak(). Different subclasses like Dog, Cat, and Parrot override the speak() method to provide specific implementations (e.g., Dog says 'Bark', Cat says 'Meow').
-
-This is an example of:",
+            "question": "In a zoo management system, there is a parent class called Animal with a method speak(). Different subclasses like Dog, Cat, and Parrot override the speak() method to provide specific implementations (e.g., Dog says 'Bark', Cat says 'Meow').\n\nThis is an example of:",
             "options": ["Polymorphism", "Inheritance", "Encapsulation", "Generalization", "Abstraction"],
             "correctAnswers": [0],
             "explanation": "Polymorphism (specifically subtype polymorphism) allows objects of different classes to be treated as objects of a common superclass, with the specific implementation resolved at runtime."
         },
         {
-            "question": "Consider the following examples:
-(i) 'Developer is an Employee'
-(ii) 'Fruit is a Banana'
-(iii) 'Car has an Engine'
-
-Which of the above examples represents the Generalization and specialization relationship?",
+            "question": "Consider the following examples:\n(i) 'Developer is an Employee'\n(ii) 'Fruit is a Banana'\n(iii) 'Car has an Engine'\n\nWhich of the above examples represents the Generalization and specialization relationship?",
             "options": ["Only (i)", "Only (ii)", "Only (iii)", "Only (i) and (ii)", "All (i), (ii), and (iii)"],
             "correctAnswers": [3],
             "explanation": "(i) and (ii) are 'is-a' relationships (Generalization/Specialization). (iii) is a 'has-a' relationship (Composition/Aggregation)."
         },
         {
-            "question": "Consider the following statements:
-(i) Compile time polymorphism is typically achieved through method overloading or operator overloading.
-(ii) Runtime polymorphism is achieved through method overriding in inheritance hierarchies.
-(iii) A Shape class with a draw() method implemented differently by Circle and Square is an example of polymorphism.
-
-Which of the above statements related to Polymorphism is/are true?",
+            "question": "Consider the following statements:\n(i) Compile time polymorphism is typically achieved through method overloading or operator overloading.\n(ii) Runtime polymorphism is achieved through method overriding in inheritance hierarchies.\n(iii) A Shape class with a draw() method implemented differently by Circle and Square is an example of polymorphism.\n\nWhich of the above statements related to Polymorphism is/are true?",
             "options": ["Only (i)", "Only (i) and (ii)", "Only (i) and (iii)", "Only (ii) and (iii)", "All (i), (ii), and (iii)"],
             "correctAnswers": [4],
             "explanation": "All three statements accurately describe types and examples of polymorphism in Object-Oriented systems."
         },
         {
-            "question": "Consider the following statements:
-(i) The Unified Process is a linear, step-by-step approach to software development.
-(ii) The Unified Process is an iterative and incremental software development methodology.
-(iii) The Unified Process strictly follows the waterfall model.
-
-Which of the above statement(s) accurately describe(s) the Unified Process?",
+            "question": "Consider the following statements:\n(i) The Unified Process is a linear, step-by-step approach to software development.\n(ii) The Unified Process is an iterative and incremental software development methodology.\n(iii) The Unified Process strictly follows the waterfall model.\n\nWhich of the above statement(s) accurately describe(s) the Unified Process?",
             "options": ["Only (i)", "Only (ii)", "Only (iii)", "Only (i) and (ii)", "Only (i) and (iii)"],
             "correctAnswers": [1],
             "explanation": "The Unified Process (UP) is fundamentally iterative and incremental, unlike the linear waterfall model."
         }
     ],
-    "2023": [],
-    "2022": [],
-    "2021": []
+    "2023": [
+        {
+            "question": "Which term from (a) to (e) is the most appropriate to fill the blank in the following statement?\n.......................... is the process of combining data and methods that operate on the data within a single unit.",
+            "options": ["(a) Inheritance", "(b) Encapsulation", "(c) Polymorphism", "(d) Abstraction", "(e) Specialization"],
+            "correctAnswers": [1],
+            "explanation": "Encapsulation is the bundling of data and the methods that act on that data into a single unit (class)."
+        },
+        {
+            "question": "Rectangle and Triangle are two classes, having a method called findArea(). Though the name and the purpose of the methods in the classes are the same, the internal implementation, i.e., the procedure of calculating the area is different for each class. When an object of class Rectangle invokes its findArea() method, the operation finds the area of the Rectangle without any conflict with the findArea() method of the Triangle class.\nIn object-oriented paradigm above is an example of ...........",
+            "options": ["(a) Polymorphism", "(b) Inheritance", "(c) Encapsulation", "(d) Generalization", "(e) Abstraction"],
+            "correctAnswers": [0],
+            "explanation": "This is polymorphism, specifically method overriding or subtype polymorphism, where different classes provide their own implementation of a common method."
+        },
+        {
+            "question": "Consider the following examples:\n(i) \"Dog is an Animal\".\n(ii) \"Aircraft has Engines\".\n(iii) \"House has Rooms\".\n\nWhich of the above examples represents the Generalization and specialization relationship?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (i) and (ii)", "(d) Only (iii)", "(e) All (i), (ii), and (iii)"],
+            "correctAnswers": [0],
+            "explanation": "Generalization/Specialization is an 'is-a' relationship. 'Dog is an Animal' fits this. (ii) and (iii) are 'has-a' (composition/aggregation) relationships."
+        },
+        {
+            "question": "Consider the following statements:\n(i) The type of polymorphism achieved through method overloading is compile-time polymorphism.\n(ii) Inheritance is a concept that allows you to create new classes by extending existing classes and it defines an \"is-a\" relationship between classes, where the new class inherits the properties and behaviors of the existing class called the base class.\n(iii) Encapsulation is the core principle of bundling data and related methods together within a class, protecting data integrity and promoting modularity.\n\nWhich of the above statements related to Object oriented concepts is/are true?",
+            "options": ["(a) Only (i)", "(b) Only (i) and (ii)", "(c) Only (i) and (iii)", "(d) Only (ii) and (iii)", "(e) All (i), (ii) and (iii)"],
+            "correctAnswers": [4],
+            "explanation": "All three statements correctly define fundamental OO concepts: compile-time polymorphism (i), inheritance (ii), and encapsulation (iii)."
+        },
+        {
+            "question": "Identify the correct statements related to Unified Process.",
+            "options": [
+                "(a) The Unified Process is a two-dimensional systems development process described by a set of phases and workflows.",
+                "(b) In the Inception phase, a business case is made for the proposed system which includes a feasibility analysis...",
+                "(c) The activities related to the Construction phase of the Unified Process are the most relevant to object-oriented systems analysis and design",
+                "(d) The primary deliverables of the Elaboration phase include (i) the UML structure and behavior diagrams...",
+                "(e) The primary goal of the Construction phase is to ensure a smooth transition from development to production."
+            ],
+            "correctAnswers": [0, 1, 3],
+            "explanation": "UP is two-dimensional (a). Inception builds the business case (b). Elaboration produces the architecture and UML models (d). 'c' is wrong as Elaboration is most relevant to A&D. 'e' describes the Transition phase."
+        },
+        {
+            "question": "Which of the following is/are correct regarding CASE tools?",
+            "options": [
+                "(a) Integrated Case tools help all the SDLC stages, from Requirement gathering to testing and documentation.",
+                "(b) GitHub is a web-based platform that offers version control and collaboration features...",
+                "(c) Visual Paradigm is an integrated development environment from Microsoft...",
+                "(d) PlantUML can be used by visually impaired people to create and read diagrams thanks to its text-based approach.",
+                "(e) Adobe Dreamweaver is an exclusive software program and programming editor that is used for creating websites..."
+            ],
+            "correctAnswers": [0, 1, 3],
+            "explanation": "Integrated CASE tools cover the whole SDLC (a). GitHub is for collaboration/VC (b). PlantUML is text-based and thus accessible (d). Visual Paradigm is not from Microsoft (c)."
+        },
+        {
+            "question": "Which of the following statements related to Use Case modelling is/are correct?",
+            "options": [
+                "(a) Use case modelling is a powerful technique in software development that bridges the gap between user needs and system functionalities.",
+                "(b) It is a process of capturing, analyzing, and documenting the interactions between users and a system...",
+                "(c) A Use Case narrative is a concise, informal, and user-centric description of a software feature...",
+                "(d) Use Cases are initially defined during the analysis stage of the life cycle and will be additionally refined during the design stage.",
+                "(e) Can be used in non-object oriented development environments."
+            ],
+            "correctAnswers": [0, 1, 3, 4],
+            "explanation": "Use case modeling is about bridging user needs (a), documenting interactions (b), and refining models through SDLC (d). It can indeed be used in non-OO contexts (e). 'c' is slightly inaccurate as narratives are often formal."
+        },
+        {
+            "question": "Which of the following is/are correct regarding Business Process identification with Use Case modelling?",
+            "options": [
+                "(a) There is no standard set of notations for Use Case Modelling.",
+                "(b) An Actor in a Use Case model has to be placed outside the subject boundary.",
+                "(c) An include relationship represents the inclusion of the functionality of one Use Case within another...",
+                "(d) An extend relationship is a type of relationship that allows you to incorporate optional behavior...",
+                "(e) A base Use Case can have multiple extend relationships with different extension Use Cases."
+            ],
+            "correctAnswers": [1, 2, 3, 4],
+            "explanation": "Actors are outside the boundary (b). Include represents mandatory inclusion (c). Extend represents optional behavior (d). A use case can have many extensions (e). 'a' is false; UML is the standard."
+        }
+    ],
+    "2022": [
+        {
+            "question": "Fill in the blank with the most appropriate answer.\n.......................... is a method to hide the data in a single entity or unit along with its methods to protect information from outside.",
+            "options": ["(a) Inheritance", "(b) Encapsulation", "(c) Polymorphism", "(d) Abstraction", "(e) Specialization"],
+            "correctAnswers": [1],
+            "explanation": "Encapsulation bundles data and methods while restricting direct access to the data."
+        },
+        {
+            "question": "Consider two classes, Circle and Square, each with a method findArea(). Though the name and the purpose of the methods in the classes are the same, the internal implementation, i.e., the procedure of calculating the area is different for each class. When an object of class Circle invokes its findArea() method, the operation finds the area of the circle without any conflict with the findArea() method of the Square class.\nIn object-oriented paradigm above is an example of ...........",
+            "options": ["(a) Polymorphism", "(b) Inheritance", "(c) Encapsulation", "(d) Generalization", "(e) Abstraction"],
+            "correctAnswers": [0],
+            "explanation": "This describes polymorphism, where the same operation (findArea) behaves differently based on the object's class."
+        },
+        {
+            "question": "Consider the following examples:\n(i) \"Ship is a kind of Water Vehicle\".\n(ii) \"Car is a kind of Land Vehicle\".\n(iii) \"Book has several Copies\".\n\nWhich of the above examples represents the Generalization and specialization relationship?",
+            "options": ["(a) Only (i)", "(b) Only (ii)", "(c) Only (i) and (ii)", "(d) Only (iii)", "(e) All"],
+            "correctAnswers": [2],
+            "explanation": "(i) and (ii) are 'is-a' or 'kind-of' relationships, which signify generalization/specialization. (iii) is an association/aggregation."
+        },
+        {
+            "question": "Consider the following statements:\n(i) Polymorphism is made possible through dynamic binding where in dynamic binding specific method that is actually called is not chosen by the object-oriented system until the system is running.\n(ii) Inheritance is the mechanism that permits new classes to be created out of existing classes by extending and refining their capabilities.\n(iii) Encapsulation is the technique for packaging the information in such a way as to hide what should be hidden and make visible what is intended to be visible.\n\nWhich of the above statements related to Object oriented concepts is/are true?",
+            "options": ["(a) Only (i)", "(b) Only (i) and (ii)", "(c) Only (i) and (iii)", "(d) Only (ii) and (iii)", "(e) All"],
+            "correctAnswers": [4],
+            "explanation": "All three statements correctly define polymorphism (via dynamic binding), inheritance, and encapsulation."
+        },
+        {
+            "question": "Consider the following statements related to Unified Process.\n(i) The Engineering workflow uncovers problems and identifies potential projects within a user organization...\n(ii) The requirements workflow includes eliciting both functional and non-functional requirements and is used mostly during the inception and elaboration phases.\n(iii) The workflows are grouped into two broad categories: engineering and supporting.\n\nWhich of the above statements is/are true?",
+            "options": ["(a) Only (i)", "(b) Only (i) and (ii)", "(c) Only (i) and (iii)", "(d) Only (ii) and (iii)", "(e) All"],
+            "correctAnswers": [3],
+            "explanation": "Statement (ii) accurately describes the requirements workflow. Statement (iii) is also correct regarding the classification of workflows in UP. Statement (i) describes business modeling, not the engineering workflow."
+        },
+        {
+            "question": "Which of the following is/are correct regarding CASE tools?",
+            "options": [
+                "(a) Upper Case tools help all the SDLC stages, from Requirement gathering to testing and documentation.",
+                "(b) Git is a code hosting platform for version control and collaboration.",
+                "(c) PlantUML is an Open Source modeling language and tool allowing users to create diagrams from a plain text language.",
+                "(d) Lower Case Tools are tools to support code generation.",
+                "(e) Apache JMeter is an open-source, load-testing tool that can be used to analyze the functional behavior of a system..."
+            ],
+            "correctAnswers": [2, 3, 4],
+            "explanation": "PlantUML is text-based modeling (c). Lower CASE tools support implementation and testing (d). JMeter is for load testing (e). Git is a tool, while GitHub is the hosting platform (b). Upper CASE only covers early stages (a)."
+        },
+        {
+            "question": "Which of the following statements related to Use Case modelling is/are correct?",
+            "options": [
+                "(a) It is proved to be a valuable aid in meeting the challenges of determining what a system is required to do from a user and stakeholder perspective.",
+                "(b) A Use Case model is a chart that shows the breakdown of a system to its lowest manageable levels.",
+                "(c) Use Cases are initially defined during the design stage of the life cycle and will be additionally refined during the implementation stage.",
+                "(d) Cannot be used in non-object oriented development environments.",
+                "(e) A Use Case narrative is a text-based description of a use case that is written in the user's language, and it acts as a communication tool..."
+            ],
+            "correctAnswers": [0, 4],
+            "explanation": "Use case modeling is great for requirement determination (a) and narratives are communication tools in user language (e). (b) describes a WBS. (c) is wrong; it starts in analysis. (d) is false."
+        },
+        {
+            "question": "Which of the following is/are correct regarding Business Process identification with Use Case modelling?",
+            "options": [
+                "(a) The elements of a Use Case diagram include actors, use cases, subject boundaries, and a set of relationships...",
+                "(b) An Actor in a Use Case model is placed inside the subject boundary.",
+                "(c) An include relationship represents the inclusion of the functionality of one Use Case within another and has an arrow drawn from the base Use Case to the inclusion use case.",
+                "(d) An extend relationship represents the extension of the Use Case to include optional behaviour and has an arrow drawn from the extension use case to the base use case.",
+                "(e) An actor can also represent another system in which the current system interacts."
+            ],
+            "correctAnswers": [0, 2, 3, 4],
+            "explanation": "Components of use cases are actors, use cases, boundaries (a). Include arrows point to the child (c). Extend arrows point to the base (d). Actors can be external systems (e). Actors are OUTSIDE the boundary (b)."
+        }
+    ]
 }
